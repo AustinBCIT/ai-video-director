@@ -14,6 +14,8 @@ Do not equate a word count with exact duration. Mark estimates and account for p
 
 ## Performance direction
 
+For a recurring character or voice, use the compact [performance record](character-performance.md#record-compact-reusable-and-scene-specific) only when it will guide this or later scenes. Pull the current scene's intention, speech and motion slice; do not paste backstory into media prompts. Scene action can deliberately differ from the character's habitual rest state.
+
 Describe intention and observable behavior: "trying to hide disappointment; brief hesitation before replying" is more actionable than "very emotional." Specify gaze target, physical action, gesture size, speech tempo and changes within the shot where needed. Avoid requesting numerous emotions and complex body actions in the same short generation.
 
 For narrator-led work, agree tone, language/accent where relevant, pronunciation of names/technical terms and pace. For on-camera dialogue, plan lip-sync, voice continuity and how reaction/insert shots can cover difficult edits. Do not promise perfect native dialogue without inspecting a sample.

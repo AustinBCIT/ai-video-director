@@ -4,6 +4,10 @@ Run this review at every active stage, including when the user changes an answer
 
 Be thorough internally and concise with the user. Do not print every checklist, reread every module on every turn, or invent defects. Surface omissions, contradictions and uncertainties that could materially affect the requested output or cause an avoidable rerun. Preparation reduces risk; it cannot guarantee a generative model will obey every constraint. An attractive image, detailed prompt, stronger model or user approval does not prove untested motion or sound.
 
+## Read only the active check
+
+The entry skill supplies the small per-step review. Use this catalog for unresolved coupled constraints or a detailed audit: sections 1–3 for conflicting inputs/action boundaries; 4 for stage selection; 5 for direction; the relevant subsection of 6 for character/product/scene; 7 for audio/technical; 8 for the assembled request. Do not reread resolved sections unless a dependency changes. Character state transitions live in [character/performance](character-performance.md), scene creation in [visual development](visual-development.md#scene-creation-record-and-sequence), and observed-defect diagnosis in [repair cards](repair-cards.md). These are task routes, not mandatory additional reads.
+
 ## 1. Turn each answer into explicit production facts
 
 For the active step, extract what the user actually specified and reconcile it with earlier accepted decisions and supplied assets. Record origin and status: explicit instruction, verified reference, accepted choice, proposed default or unknown. Distinguish a request to change the project from an example, question or hypothetical. Never silently promote a recommendation or an unanswered menu into agreement.

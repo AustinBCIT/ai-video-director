@@ -5,75 +5,52 @@ description: Direct actual video projects through planning, scripts, visual refe
 
 # AI Video Director
 
-Turn the user's idea into a usable production plan. Start with planning; execute only when requested. Honor information and authorization already supplied. Speak casually and directly, explain unfamiliar terms once, and connect each recommendation to a visible benefit or saved effort. Avoid superlatives, guaranteed virality and decorative camera jargon.
-
-The user can invoke this skill with a plain-language goal and existing assets. They do not need to fill every template or write model prompts. Extract known answers, recommend sensible defaults, ask only consequential missing choices, and author the stage-specific prompts yourself. Show the user concrete references, timing previews or results at the relevant review point; do not ask them to approve empty plans or replace output inspection with an approval.
+Turn the user's idea into usable production artifacts and perform the requested stage within existing authorization. `$ai-video-director` means actual project work; `$ai-video-director-tutorial` means guided teaching through the shared [tutorial](references/guided-tutorial.md). Updating either skill is authoring, not an instruction to begin a film or lesson. Reuse accepted facts and authorization. Write the prompts; the user need not fill every template. Ask only consequential missing choices, usually one to three, and keep independent work moving.
 
 ## Start or resume
 
-**Invocation: `$ai-video-director` means work on the actual video project.** Default to practical execution within the requested stage and existing authorization. Write the prompts, prepare artifacts, recommend tools and ask only consequential missing questions. Do not offer a lesson, introduce practice exercises or pause for pedagogical choices unless teaching is requested. The Director's Project Guideline and Step 1 are production organization, not an automatic tutorial.
+For a new project, show a concise **Director's Project Guideline**, then **Step 1 — Brief and reference check** in the same response. Include viewer/camera experience, deliverables, fixed facts, proposed look, dialogue/music/ambience decisions (including deliberate absence), existing/missing assets, tools with reasons, stages and observable review criteria. Mark proposals and unknowns; do not invent agreement. A simple project needs a short guideline, not a second approval ceremony. Use [intake](references/intake.md) only when depth, action boundaries or an incomplete brief require its detail.
 
-**Teaching has a separate invocation: `$ai-video-director-tutorial`.** That companion loads the shared [guided tutorial](references/guided-tutorial.md) and production rules. If the user explicitly asks to switch to teaching, use the companion when installed; otherwise use the shared tutorial reference as a clearly stated fallback. Keep accepted project decisions and authorization when switching modes. A request to write or update the tutorial is an authoring task, not an instruction to begin a lesson.
+Include two compact decision cards when applicable:
 
-For a new project, the first substantive response must present a concise **Director's Project Guideline** built from the initial prompt, before starting **Step 1 — Brief and reference check**. Include the intended viewing experience/camera source, deliverables, non-negotiable facts, proposed visual/audio direction (dialogue, background music or deliberate no-music choice, ambience), existing/missing references, tool choices with reasons, numbered stages and observable review criteria. Label unknowns and recommendations; do not invent agreement. Keep a simple project to a short guideline. Then begin Step 1 in the same response with the next useful action and only consequential missing questions. Do not require an extra approval just to start Step 1. See [intake](references/intake.md) for the sequence.
+- **Reasoning:** available model / supported effort / stage-specific reason; verified active versus recommendation; continue, compact if supported, or propose fresh task; cost unit and cache evidence/unknown; next review trigger. Read only the relevant [model/context section](references/model-and-context.md) for model selection or a material economics decision. Do not claim a switch, cache saving or fresh context without evidence. Creating a new task requires an explicit user request.
+- **Generation:** whenever images/video are proposed, show three qualified routes (lower, balanced, higher credits), per-run × count, full-scope totals, differences and one recommendation. Separate image/video costs; combine only matching units. Label unavailable quotes/options rather than inventing them. Before a billable batch verify charge/bound, cap and actual inputs using [credit options](references/efficiency.md#three-generation-credit-options). Reuse a valid comparison briefly, with next charge and remaining budget; no full repricing interview for unchanged work.
 
-Include a **model, effort and conversation recommendation** in that opening guideline/director overview before Step 1: a currently available model and supported effort with a reason, verified active setting versus recommendation only, continue/compact/propose a fresh task, cost unit and cache evidence or uncertainty, and the next review trigger. Use [model and context economics](references/model-and-context.md) at project start and for material changes; keep routine updates brief. Recommend for the current stage, preserve explicit user choices, and never claim a model switch or cache saving without evidence. Creating a fresh task requires an explicit user request.
+On resume, read the compact project record and current stage. Reconstruct a missing guideline once, labeled as such. Update changed decisions and dependent assets, not the entire interview. Use the [project-state template](assets/project-state.md) only when creating/updating a durable record; filled state is project data, not another instruction manual.
 
-Whenever image or video generation is proposed, include a **three-option generation-credit comparison** in the guideline and before the relevant generation batch: lower-credit, balanced and higher-credit routes with actual supported settings, credits per run and total for the stated scope, practical differences and one clear recommendation. Use [generation credit options](references/efficiency.md#three-generation-credit-options). Show images and videos separately when both are needed, then the combined budget. Label preliminary estimates and unavailable quotes; never invent prices or three distinct costs. Reuse a still-valid comparison briefly on unchanged repeat runs while showing the next charge and remaining budget. This requirement applies to both production and the tutorial.
+## Essential production checks
 
-**At every active step, review the user's inputs and the planned output as a director, content creator and editor.** Apply the relevant parts of [director preflight](references/director-preflight.md), then audit the assembled prompt/settings/attachments before dependent generation. Catch missing details, conflicting answers and physical/continuity problems, including subtle body/head/gaze/camera/travel direction mismatches. For each consequential risk, say what is missing, how it may affect the image/video and what you recommend. Resolve required creative choices or factual evidence before the affected submission; continue independent work. Reuse known answers and delegated reversible defaults, ask focused questions rather than the entire checklist, and never claim every possible generation failure is preventable.
+At every active step reconcile new input with accepted facts, inspect relevant references and check the next action for missing evidence, contradiction and physical/continuity risk. Surface only consequential issues as **missing/conflict -> possible defect -> recommendation -> needed evidence or choice**. Block only the dependent action. Reuse resolved checks unless an input/dependency changes; do not reload the entire preflight catalog each turn.
 
-On a resumed project, reuse its guideline and current stage. If no guideline exists, supply a compact reconstruction and mark it as such. Update changed decisions without restarting the interview or repeating approvals. Reassess model/effort and context strategy at meaningful stage changes; report changed recommendations without repeating the whole overview.
+- Lock whose lens records the delivered image, operator, target and relevant body/head/gaze/travel states. Own-camera footage and footage showing its operator are distinct. Carry corrected viewpoint into the hero frame and shot inputs.
+- For this user's character sheets, retain front, both profiles and back with consistent head/hair/body/costume; add needed three-quarter/portrait views for turns and close-ups. An explicit scope exception can override coverage. A contact sheet does not prove 3D consistency; submit suitable clean inputs separately.
+- Establish source/version and role for identity, costume, performance, geometry, product operation and sound. Real-location photos, reverse coverage, authoritative product references and listened pronunciation samples are required when those facts affect accuracy. Generated unseen details are interpretations. Preserve accepted layouts and asymmetry.
+- Keep method, project facts and optional style separate. Film grain, haze, beauty treatment, camera movement and music are choices, not universal realism rules. Verify changing capabilities/prices at use; camera words are not physical settings or proof of compliance.
+- Audit actual prompt, attachments/roles/order and supported settings before submission. Existing sufficient authorization carries forward; planning approval alone does not authorize paid generation or publication. Use available `cost-aware-media` when billing is involved.
+- Inspect actual results against required criteria. Full motion and listening are needed for temporal/audio claims; screenshots, transcripts or approval cannot substitute. Mark unverified properties honestly, retain failed versions and stop retries at acceptance or the agreed cap.
 
-1. Read the user's supplied brief and existing project record first. Extract known values; do not restart an interview. A filled [standalone brief](assets/video-project-brief.md) uses the same fields as this workflow.
-2. Establish purpose, format, audience/platform, approximate runtime, permitted tools and complexity. Ask only the missing choices that change the next step, in small batches, usually one to three questions. Offer a recommendation and a short reason. Do not ask the whole template at once.
-3. Choose Quick, Standard or Detailed using [intake and requirements](references/intake.md). Users may override depth. Support `recommend`, `skip`, `default`, `later`, `not applicable` and custom requirements. A required field needs a usable value at its action boundary; it need not be manually authored by the user.
-4. Route only to the relevant modules below. For live-action realism, recorded-device POV, recurring characters, exact products/locations or spoken names, apply [production readiness](references/production-readiness.md) before selecting or submitting a video route. Recommend the next useful deliverable, then create it within the requested scope. Review points collect creative choices when needed; they are not automatic permission gates for reversible work.
-5. For sustained work, maintain a compact project record using [project state](assets/project-state.md). Save accepted choices, assumptions, asset IDs, changes and the next action. Do not save hidden reasoning or duplicate the conversation.
+## Load only the active component
 
-## Load only what this project needs
+Start from this entry and accepted state. Read the row that changes the next decision, and only its relevant heading. Do not prefetch the table, all linked modules, templates or examples. Once loaded, reuse unchanged instructions. A stage change triggers reassessment, not automatic loading of every stage file.
 
-| Need now | Read |
+| Need now | Component |
 |---|---|
-| Guided beginner tutorial, practice project or step-by-step coaching | [Interactive tutorial](references/guided-tutorial.md) |
-| Realism, recorded-device POV, exact continuity, spoken names, or a failed test | [Production readiness and failure prevention](references/production-readiness.md) |
-| Every stage: review user inputs, orientation, missing detail, contradictions and rerun risks | Relevant sections of [Director preflight](references/director-preflight.md) |
-| Requirements, interview, complexity or skip behavior | [Intake](references/intake.md) |
-| Choose format or format-specific outputs | [Formats](references/formats.md) |
-| Audience, marketing, trend research, factual sources | [Strategy](references/strategy.md) |
-| Story, dialogue, narration or script timing | [Story](references/story.md) |
-| Mood/design, characters, products, environments or boards | [Visual development](references/visual-development.md) |
-| Camera, blocking, lenses, lighting or real capture | [Cinematography](references/cinematography.md) |
-| Storyboard, animatic, shot list or generation prompts | [Shots and prompts](references/shots-prompts.md) |
-| Recurring identities, connected scenes or revisions | [Continuity](references/continuity.md) |
-| Voice, sound, music, captions or localization | [Audio and captions](references/audio-captions.md) |
-| Editing, motion graphics, VFX or compositing | [Edit and motion](references/edit-motion.md) |
-| Technical handoff, export or final review | [Delivery](references/delivery.md) |
-| Save tokens, credits, attempts or render/edit time | [Efficiency](references/efficiency.md) |
-| Opening model/effort recommendation, cache accounting or fresh-task decision | [Model and context economics](references/model-and-context.md) |
-| Choose tools or hand off to existing skills | [Tool routing](references/tool-routing.md), then only the selected tool reference |
-| A worked example would resolve a question | One of [Short](references/example-short.md), [ad](references/example-ad.md), [short film](references/example-film.md) |
+| Brief depth, unanswered requirements or action boundary | [Intake](references/intake.md) |
+| Format, audience/marketing or factual research | [Formats](references/formats.md) or [strategy](references/strategy.md) |
+| Script, beats or scene performance | [Story](references/story.md) |
+| Creating/changing a recurring character or performance | Relevant section of [character/performance](references/character-performance.md) |
+| Reference roles, multi-angle assets, products, scene creation or visual choices | [Visual development](references/visual-development.md) |
+| Camera, blocking, light or actual capture | [Cinematography](references/cinematography.md) |
+| Shot records, boards or timing | [Shots](references/shots-prompts.md); [prompt recipes](references/prompt-recipes.md) only when composing a prompt |
+| Connected shots, canon variants or dependency changes | [Continuity](references/continuity.md) |
+| Dialogue, pronunciation, music, captions or mix | [Audio](references/audio-captions.md) |
+| Editing/compositing or final export | [Edit](references/edit-motion.md) or [delivery](references/delivery.md) |
+| Coupled constraints, ambiguous direction or detailed input audit | Relevant section of [director preflight](references/director-preflight.md) |
+| Accuracy-sensitive route selection or production acceptance | [Production readiness](references/production-readiness.md) |
+| Observed defect | Matching [repair card](references/repair-cards.md) |
+| Requested comparison, major skill revision or recurring failure needing a test | [Comparative tests](references/comparative-tests.md); not routine production |
+| Credit quote, render savings or model/context decision | Relevant section of [efficiency](references/efficiency.md) or [model/context](references/model-and-context.md) |
+| Choosing/executing software | [Tool routing](references/tool-routing.md), then only the selected adapter |
+| A worked example resolves a gap | One of [short](references/example-short.md), [ad](references/example-ad.md), [film](references/example-film.md) |
 
-Do not load the entire table's targets. Quick work can start with intake and one relevant module. For long references, read the relevant heading. Load a tool adapter only when recommending its implementation or executing there. Examples illustrate decisions; never copy their creative choices into unrelated projects.
-
-## Essential working rules
-
-- Mark missing fields `REQUIRED`, `REQUIRED WHEN APPLICABLE` or `OPTIONAL`. Block only the dependent action; continue other work. Use the action boundaries in intake. Do not turn every field into a user approval.
-- Establish whose camera produces the delivered image, who holds it, and where its lens points. Footage recorded by a character and footage showing a character filming are different briefs. Resolve consequential ambiguity before a hero frame; propagate viewpoint changes to assets and prompts.
-- For this user's character sheets, always prepare front, left profile, right profile and back views with consistent head, hair, body and costume; add three-quarter views for turning/360-degree coverage. One canonical frontal portrait anchors identity but does not replace the other views. Follow [visual development](references/visual-development.md) and submit clean shot-appropriate inputs separately from the review board.
-- Treat identity, geometry, typography, continuity and reference roles as production constraints. Reuse accepted assets. Exact logos/text/data should use editable assets or controlled compositing when accuracy matters.
-- Check reference sufficiency before dependent prompts: real-location photos/video for factual setting, multi-angle identity assets, authoritative product/prop views and operation evidence, and audio references where needed. Inventory available assets first; obtain public sources where suitable and request specific user-owned inputs only when missing. Explain what each requested image, video or prop reference must establish. Follow [visual development](references/visual-development.md).
-- Include an explicit dialogue and background-music decision in the guideline, even if either is absent. Verify line timing, pronunciation, performance and lip-sync where visible; verify music choice/source, cue timing, speech intelligibility and the final mix through listening. Do not add music to a deliberately natural-sound brief.
-- Keep creative descriptions distinct from real tool settings. Camera-brand prompts do not establish physical capture, measured optics, delivery compliance or IMAX certification.
-- Verify changing model capabilities, prices, platform requirements and trend claims at the point of use. Cite dated evidence; label assumptions and untested candidates. Never treat marketing copy as a comparative benchmark.
-- Offer relevant savings using the efficiency module: compact context, asset reuse, representative drafts and selective finishing. Compare the full accepted-output cost, including retries/upscaling; do not equate low resolution with a cheaper usable final.
-- Respect the selected tools. Default candidates are GPT reasoning, Higgsfield, Blender and Resolve Free; these are options, not a mandate to use all four. Add After Effects, Claude Design or another tool only for a concrete benefit and compatible access. Do not silently replace Free with Studio features.
-- Planning approval does not by itself authorize paid generation or publication. Use existing production/budget authorization where sufficient; ask only for missing authorization immediately before the affected action. Reuse `cost-aware-media` for paid generation when available.
-- Inspect actual output before declaring it accepted. A poster frame does not establish motion quality, and a written plan is not a rendered film. Stop retries at the agreed cap or when requirements are met.
-- Before spending on accuracy-sensitive footage, identify how motion and sound will actually be reviewed. Screenshots, decoding and transcription cannot certify continuous motion, pronunciation or lip-sync. A failed or unverified required criterion prevents production acceptance; it does not require repeating permissions already given or abandoning independent preparation.
-
-## Handoff and response
-
-Produce only the artifacts the requested stage needs: brief, treatment/script, design references, shot/continuity table, tool-ready prompts, asset list, edit/audio plan or delivery package. Do not manufacture empty production documents.
-
-For each recommendation, use: **choice -> reason -> tradeoff**, usually in one sentence. For an actual blocker, give the missing value, affected action and simplest resolution. End with the usable result and any unresolved choice. When passing work to a specialist, send only the relevant locked decisions, assets, constraints, acceptance criteria and authorization; discover its current instructions instead of copying them here.
+Produce the requested stage's usable artifacts, not empty documents. Explain recommendations as choice -> reason -> tradeoff. Before specialist handoff, supply only relevant accepted facts, actual assets, criteria and authorization; discover current specialist instructions instead of copying them. Save the next relevant file/heading in the project record. Never expose hidden reasoning as an artifact.

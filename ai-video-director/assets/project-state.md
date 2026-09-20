@@ -34,6 +34,15 @@ Copy into the working project for sustained work. This is a compact record, not 
 | Asset ID/version | File or media ID | Role / authoritative details | Status | Used by |
 |---|---|---|---|---|
 
+## Character and scene records, only when relevant
+
+Keep compact records here or link authoritative files; omit this section for ordinary existing-footage edits.
+
+- Character: CHAR/version + canonical/angle assets and fixed identity; COST/version + variant; PERF/version + speech/motion/rest; voice source/status; current scene intention/gaze/hands; evidence and dependents.
+- Scene: ENV/layout version + source/scale/landmarks; allowed moving elements; look/time state; route/forward-reverse coverage; unknowns and dependent shots.
+- Selected style versus factual constraints: treatment/allowed variation; explicit overrides; provider-specific settings kept in shot records.
+- Change classification: shot / costume / identity state / performance or voice / layout / scene state; changed and preserved fields; old/new authority/status; affected shots; verification before promotion.
+
 ## Shots and production
 
 | Shot ID | Source/edit duration | Start -> action -> end | Assets | Tool/settings/job ID | Status / issue |
@@ -70,6 +79,9 @@ Use only rows relevant to the active stage; retain resolved critical decisions w
 - Full-motion playback and listening capability / reviewer / limitations:
 - Required failed or unverified criteria / corrective action before acceptance:
 - Costs measured versus estimated; unresolved job/charge if any:
+
+- Repair, only after a defect: time/frame + evidence / likely causes / selected intervention / preserved passing criteria / cap and quote / observed result.
+- Comparison, only when used: baseline/candidate + fixed inputs/settings / changed variable / sample count / criteria / usage/credits/time / conclusion and uncertainty.
 
 ## Resume
 

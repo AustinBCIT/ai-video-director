@@ -25,6 +25,8 @@ Do not send a production encyclopedia as one video prompt. Repeat only essential
 
 ## Tool-ready shot record
 
+When writing a generation prompt, load the relevant [prompt recipe](prompt-recipes.md) for information ownership, visibility filtering and reference conflicts. This record owns accepted facts/settings; the recipe translates them into the selected tool's supported inputs. Do not load recipes just to trim existing footage.
+
 ```text
 Shot: S02 / purpose: show the decision to help
 Deliverable: 4 seconds in the edit; source duration/handles: verify for model
@@ -58,7 +60,9 @@ For footage from the presenter's own camera, explicitly assign the viewer to tha
 
 Review the entire clip in motion and sample difficult contact, faces, hands, logos, edges, start/end transitions and background consistency. Check motion against the intended action, not only image quality. Listen when audio is generated. If only stills can be inspected, explicitly limit the review claim.
 
-On failure, identify one cause: wrong input role, overloaded motion, geometry drift, unstable text, unsupported control or source mismatch. Choose an edit/reuse/regeneration that addresses it. Record the new attempt and reason. Do not blindly retry or run expensive alternatives just because another model exists.
+On failure, inspect likely causes rather than asserting a single cause without evidence: wrong input role, overloaded motion, geometry drift, unstable text, unsupported control or source mismatch. Choose an edit/reuse/regeneration that addresses it. Record the new attempt and reason. Do not blindly retry or run expensive alternatives just because another model exists.
+
+For an observed defect, load only the matching [repair card](repair-cards.md). Use [comparative tests](comparative-tests.md) only for a requested comparison or a justified bounded investigation, not automatic extra generation.
 
 ## Source note
 

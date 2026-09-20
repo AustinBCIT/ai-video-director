@@ -1,5 +1,9 @@
 # Intake, depth and action boundaries
 
+## Loading boundary
+
+Use this module when brief depth, unanswered requirements or an action boundary needs clarification. The entry skill already defines the compact opening; do not reload this file merely to repeat that overview. Read only the relevant heading. Economics, detailed preflight and downstream creative modules are conditional reads, not a startup bundle.
+
 ## First exchange
 
 Extract what is already known. First show the Director's Project Guideline, then begin Step 1. If starting from very little, the guideline may be a short provisional goal and route with unknowns; do not invent specifics. Ask what the video should achieve, where/for whom it will run, and the desired production depth only if missing and consequential. Then resolve duration, tools and budget as needed. Do not ask for a camera model before knowing whether anything will be filmed.

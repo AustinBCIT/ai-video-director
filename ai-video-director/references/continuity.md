@@ -33,6 +33,8 @@ Some mismatches are best fixed in the edit, crop or audio bridge; others change 
 
 ## Revision propagation
 
+Classify the change before invalidation: shot action, costume/look variant, identity state, voice/performance, environment layout or scene light/time state. Character-specific permanence and branch decisions belong to [character change rules](character-performance.md#change-permanent-change-decision-tree); environment creation/state distinctions belong to [scene records](visual-development.md#scene-creation-record-and-sequence). Load only the relevant branch. Maintain one authoritative version per property and shot, not one global “latest” asset that overwrites flashbacks or alternate looks.
+
 When a locked choice changes, identify dependent assets and shots. Mark them for review; do not regenerate everything automatically. Costume change affects visible wardrobe shots but may not affect a landscape insert. A new aspect ratio can affect composition, title placement and safe areas without changing narration.
 
 Retain accepted versions and label revisions. Use `proposed`, `accepted`, `needs revision`, `superseded` and `unverified` meaningfully. Do not overwrite source assets to hide a failure.

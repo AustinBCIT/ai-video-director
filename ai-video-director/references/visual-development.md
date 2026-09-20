@@ -27,6 +27,10 @@ Choose the geometry route after checking the references. If Blender is useful, b
 
 If no suitable factual references exist, propose a location-inspired alternative and label missing facts unverified. Do not silently relax an exact-location requirement or claim a real-location reproduction. Continue independent work while awaiting an essential user asset; do not commit dependent generation merely because the user has not supplied it yet.
 
+## Method, project facts and optional style
+
+Keep four authorities distinct: reusable method (how to verify), project facts/preferences (what must persist), optional visual treatment (what it should feel/look like), and provider adapter (supported controls). Explicit current user choices take priority over presets. Store the chosen treatment in the project record, not in global defaults. A night market may use device-natural capture, cinematic treatment or another accepted style; none automatically implies haze, anamorphic optics, grain, matte skin or exposure hunting. Neutral identity references and scene-lit finished images have different purposes.
+
 ## Design decisions
 
 Select mood, tone, realism/stylization, palette, contrast, texture/materials, light quality and composition based on story and viewing context. Mood is the scene's felt atmosphere; tone is how the work treats its subject. A frightening atmosphere and a playful tone can coexist deliberately.
@@ -34,6 +38,8 @@ Select mood, tone, realism/stylization, palette, contrast, texture/materials, li
 For branded work, capture exact colors, supplied logos, typography, spacing and mandatory copy. Use editable text/vector layers for final titles, logos and data diagrams. An AI concept image may guide layout, but its lettering is not automatically production-ready.
 
 ## Character identity and sheets
+
+For a new recurring person, performance profile or identity change, load only the relevant [character/performance section](character-performance.md). It owns canonical creation, compact performance records and permanent-change decisions; this section owns reference coverage and inspection.
 
 For a recurring visible character, establish an accepted identity asset before continuity-dependent production. Developing that identity can itself be an authorized first step. Gather distinguishing features, approximate age presentation, proportions, hairstyle, costume/materials, accessories and performance traits relevant to the film. Do not add gratuitous personal attributes.
 
@@ -69,6 +75,20 @@ Record location, time/weather, geography, entrances/exits, major landmarks, mate
 For a camera turn, prepare both directions and intervening coverage from one consistent environment; do not build reverse views by mirroring the forward image. Classify the set as inspired, recognizable or exact. Keep fixed signage text as verified editable textures/plates when it must survive motion. A realistic AI still based on Blender is a 2D interpretation, not proof that its invented reverse views will match the source geometry.
 
 For a room: locate door, window, furniture and actors on the plan; choose the action axis before coverage. For a world: specify recurring design rules and only the locations shown. Do not require a huge world bible for one shot.
+
+## Scene creation record and sequence
+
+Use when creating a reusable environment or preserving geography through connected shots/turns. Skip a scene bible for an unrelated landscape or an existing-footage edit. Inspect the accepted scene and source references before inventing more assets.
+
+Keep a compact scene record: `ENV-ID/version | inspired/recognizable/exact | authoritative source/layout | fixed landmarks and scale | permitted moving elements | look/time variant | camera route/coverage | unknowns | shots using it`. Store asset links, not duplicated descriptions of an entire city. Separate stable geometry from time/weather/light state and temporary set dressing. Persistent crowd characters need identity records only when continuity actually depends on them.
+
+1. Establish visible coverage and recording viewpoint. For turns, map forward, reverse and intervening views with meaningful landmarks. Mark unseen regions unknown or proposed; a generated reverse still is not verified geography.
+2. Check coarse composition, scale, path and occlusion using an inexpensive plan/blockout or available real coverage. Use Blender only when controlled layout/camera reuse justifies it. Preserve supplied stall/object positions unless a change is explicitly requested.
+3. Resolve reference ownership: layout source controls positions; material photos control compatible texture/wear; light references guide appearance. If factual photos conflict with an accepted invented set, explain the mismatch before claiming exact location accuracy. Do not average incompatible layouts.
+4. Improve only visible materials, practical lighting, signage and purposeful motion. Keep source-specific wear and scale; distribute details where the camera can resolve them. Steam must originate from an actual hot surface; ordinary crowd motion must respect paths and contact.
+5. Inspect a hero frame and, when movement matters, a cheap route/occlusion preview. A still pass does not pass continuous geography. Use exact text textures/plates or a tested controlled route when lettering must persist.
+
+For revisions: light/time/weather changes normally create a look/state variant on the same layout; moving a permanent stall or doorway creates a layout version; a one-shot movable prop updates shot state. An unintended reset remains a failed output, never a new accepted layout. Preserve prior versions and update only dependent shots through [continuity](continuity.md#revision-propagation). Compose the actual image with [scene recipe](prompt-recipes.md#recipe-b-scene-creation-and-hero-still), not by pasting this record wholesale into the prompt.
 
 ## Products, props and costume
 

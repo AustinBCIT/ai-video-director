@@ -15,6 +15,10 @@ Before proposed image or video generation, both skills show three credit options
 
 Both skills also perform a [director preflight](ai-video-director/references/director-preflight.md) at every active stage. It checks user inputs, orientation, camera ownership, physical action, identity/product/location evidence, continuity, sound and the final tool request. Consequential gaps receive an explanation of the likely defect and a recommended fix; required clarifications are resolved before the affected generation. The user sees the relevant issues, not an exhaustive form to fill.
 
+Character and scene work now includes [compact performance records and permanent-change rules](ai-video-director/references/character-performance.md), reference-role and visibility-aware [prompt recipes](ai-video-director/references/prompt-recipes.md), and versioned scene creation guidance. Identity, costume, performance and scene layout/state are tracked separately so revisions affect only dependent work. The tutorial teaches these components only when relevant and loads one stage at a time.
+
+For observed defects, [diagnostic repair cards](ai-video-director/references/repair-cards.md) guide inspection, a targeted intervention and verification. [Comparative tests](ai-video-director/references/comparative-tests.md) are optional evaluations for requested comparisons or substantial revisions, not automatic paid generation. They distinguish prompt behavior from actual media quality and measured cost.
+
 **[Download the complete ZIP](https://github.com/AustinBCIT/ai-video-director/raw/refs/heads/main/ai-video-director-download.zip)** · **[Beginner start guide](START-HERE.md)**
 
 This is a public download; no Git or GitHub account is needed. The repository also includes all editable skill source files.

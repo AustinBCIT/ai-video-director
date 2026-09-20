@@ -6,17 +6,11 @@ The purpose is to catch a wrong brief, missing references and an unsuitable prod
 
 ## Establish the actual viewing experience
 
-Before generating the main frame, state: **The audience sees the image recorded by [camera], held/operated by [person], pointing toward [subject], from [position].** Record whether that statement came from the user, an accepted proposal or an unconfirmed assumption.
-
-For a vlog, distinguish recorded-device POV, the device's selfie view, an observer filming the vlogger, and intentional mixed coverage. If the user has specified one, follow it. If the ambiguity changes the film, resolve it before producing continuity-dependent assets; do not quietly choose an external tracking camera because it makes the product visible.
-
-The recording camera normally cannot appear in its own footage. Hands or arms may enter its field of view; a full device requires a physically explained reflection or a separately specified observer shot. A device brand is not a command to show the device, nor proof of its optics or controls.
-
-A switch between forward street view and selfie view must preserve camera ownership, continuous position and travel. The lens turns toward the presenter and back while the same walk continues. Determine the actual device's mechanism from reliable reference before depicting button presses or gimbal behavior. Do not invent a second lens, a floating observer, a reverse walk or a mirrored street to make the transition work.
+Reuse the accepted camera-source/direction record. If unresolved, use [camera source and recorded-device POV](cinematography.md#camera-source-and-recorded-device-pov) or the relevant [direction checks](director-preflight.md#5-orientation-viewpoint-and-movement-checks); do not run both as duplicate interviews. This module owns route feasibility and evidence-based acceptance, not another set of creative defaults.
 
 ## Required evidence before a production attempt
 
-Use [director preflight](director-preflight.md) throughout intake and every production stage to identify missing inputs and likely rerun causes before this readiness decision. Record unresolved creative ambiguities separately from factual evidence gaps; explain their visible/audible consequences and recommended fixes. For turning or directional action, preserve an explicit direction record and verify the final prompt, actual reference attachments and tool settings agree with it.
+Reuse the applicable preflight results; consult only unresolved checks before this readiness decision. Record unresolved creative ambiguities separately from factual evidence gaps; explain their visible/audible consequences and recommended fixes. For turning or directional action, preserve an explicit direction record and verify the final prompt, actual reference attachments and tool settings agree with it.
 
 Use `passed`, `failed`, `not verified` or `not applicable` per criterion. Record the actual artifact/evidence and next corrective action; a checked box or a strong prompt is not evidence.
 
@@ -57,7 +51,7 @@ Break overloaded movement into planned states, not arbitrary unrelated generatio
 3. Listen to names and natural delivery; compare to the verified pronunciation asset. Watch lips with the final audio and review continuity of ambience across turns/cuts. ASR supports a transcript, not a pronunciation or lip-sync pass.
    Check music against the selected music/no-music plan, including cue timing and whether it masks speech. Log dialogue and music/mix results separately.
 4. Record each criterion's status and evidence. A decoded file or a poster frame only passes its own technical/visual check. If playback/listening is unavailable, leave those criteria `not verified`; arrange the needed review rather than claiming acceptance.
-5. Preserve rejected versions, log the failure and choose a targeted fix. Do not retry the same overloaded prompt automatically. Respect existing retry/spend limits; a changed production method is not automatically authorized paid work.
+5. Preserve rejected versions, log the failure and use the matching [repair card](repair-cards.md) to choose a targeted fix. Do not retry the same overloaded prompt automatically. Respect existing retry/spend limits; a changed production method is not automatically authorized paid work.
 
 Deliver a test with its failed/unverified items when appropriate, but do not label it final, accurate or fully verified. User feedback about a concrete visible/audible defect is evidence: record it as failed and invalidate dependent acceptance, instead of retaining an earlier “not verified” label.
 
