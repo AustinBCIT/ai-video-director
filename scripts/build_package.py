@@ -4,16 +4,17 @@ import hashlib
 import zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
-SKILL = ROOT / "ai-video-director"
+SKILLS = [ROOT / "ai-video-director", ROOT / "ai-video-director-tutorial"]
 ARCHIVE = ROOT / "ai-video-director-download.zip"
 PREFIX = "ai-video-director-download"
 
 
 def build():
     files = [ROOT / name for name in ("README.md", "START-HERE.md", "video-project-brief.md")]
-    files.extend(sorted(path for path in SKILL.rglob("*") if path.is_file()))
-    if not (SKILL / "SKILL.md").is_file():
-        raise FileNotFoundError("The complete ai-video-director source folder is required.")
+    for skill in SKILLS:
+        if not (skill / "SKILL.md").is_file():
+            raise FileNotFoundError(f"The complete {skill.name} source folder is required.")
+        files.extend(sorted(path for path in skill.rglob("*") if path.is_file()))
     for path in files:
         if path.is_symlink() or not path.resolve().is_relative_to(ROOT):
             raise ValueError(f"Unexpected external file: {path.name}")
