@@ -68,6 +68,8 @@ As the work changes, the assistant should reassess these choices. Staying can re
 
 ## 4. Learn only the tools your project needs
 
+Before generating images or videos, expect three options with different credit costs where suitable routes exist: lower credits, balanced and higher credits. The assistant explains what each changes and recommends one for your project. You should see credits per run, the number of runs and the total, with images and videos separated. Unknown quotes or unavailable options should be marked clearly. A recommendation does not spend credits; existing authorization and budget limits still apply.
+
 | Tool | What you would learn | Good reason to use it |
 |---|---|---|
 | Blender | Set up a 3D camera, preview a move, light and render a scene | A stable scene, repeated angles or controlled objects/camera movement |
@@ -78,6 +80,8 @@ As the work changes, the assistant should reassess these choices. Staying can re
 A phone-footage edit may need only an editor. A lesson can also be a plan without producing media. Software-specific steps depend on what you have installed and what the assistant can actually operate. You can explicitly ask to learn a tool even when it is optional for the final video.
 
 ## 5. Review picture and sound
+
+At every step, the assistant should also review your answers for missing or conflicting details before they become expensive mistakes. For example: “You said turn left, but it is unclear whether that means her left or screen-left. This may show the wrong side of her face. I recommend locking the body and camera directions separately.” It should recommend a fix, ask only the needed question and resolve consequential gaps before the affected generation. Prior answers still count; you should not fill a long technical checklist. These checks reduce avoidable reruns but cannot guarantee flawless generation.
 
 The assistant should explain what to look and listen for: believable motion, consistent faces/products, stable signs and backgrounds, correctly pronounced words, natural lip-sync, audible dialogue and appropriate music. Real photos or walking footage may be needed for accurate places; a generated reference image is not proof of real geography.
 

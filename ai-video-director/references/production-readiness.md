@@ -16,6 +16,8 @@ A switch between forward street view and selfie view must preserve camera owners
 
 ## Required evidence before a production attempt
 
+Use [director preflight](director-preflight.md) throughout intake and every production stage to identify missing inputs and likely rerun causes before this readiness decision. Record unresolved creative ambiguities separately from factual evidence gaps; explain their visible/audible consequences and recommended fixes. For turning or directional action, preserve an explicit direction record and verify the final prompt, actual reference attachments and tool settings agree with it.
+
 Use `passed`, `failed`, `not verified` or `not applicable` per criterion. Record the actual artifact/evidence and next corrective action; a checked box or a strong prompt is not evidence.
 
 | Criterion | Evidence before dependent video work |
@@ -28,7 +30,7 @@ Use `passed`, `failed`, `not verified` or `not applicable` per criterion. Record
 | Pronunciation and timing | Exact line, critical names in native spelling, reliable pronunciation reference and a listened-to audio sample timed with turns and pauses |
 | Music and dialogue plan | Explicit music/no-music decision, speech delivery and timing, ambience/cue plan, usable source assets and final listening route |
 | Review capability | A usable path for normal-speed continuous playback with sound and detailed frame inspection; named human review where agent perception is unavailable |
-| Cost and submission | Exact supported media roles/settings, a fresh quote, existing sufficient authorization and known job/retry state |
+| Cost and submission | Three-option credit comparison and recommendation per the efficiency guide; exact supported media roles/settings, fresh charge or defensible bound, total scope/retry exposure, existing sufficient authorization and known job/retry state |
 
 This is a readiness check, not a new user-approval ceremony. Complete reversible preparation autonomously within the authorized scope. Ask only for a material unresolved creative decision, unavailable input or genuinely missing spending permission. Approval of a still's appearance does not waive a missing profile, change the camera viewpoint, verify pronunciation, or make an unsupported route reliable.
 

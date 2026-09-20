@@ -10,6 +10,10 @@ Begin with the Director's Project Guideline from [intake](intake.md), then Step 
 
 Include the shared [model/effort and conversation recommendation](model-and-context.md) in that opening overview. Explain the choice in one plain-language sentence: simple lesson choices need less reasoning than solving difficult continuity problems. Name a verified available model and supported effort; distinguish recommended from actually active. Explain cache uncertainty without an economics lecture or another mandatory learner question. At meaningful stage changes, briefly update the recommendation if needed. A fresh task is a proposal until the user explicitly requests it; save the lesson's decisions and pending choice first.
 
+When a step proposes image or video generation, show the shared [three-option credit comparison](efficiency.md#three-generation-credit-options): lower credits, balanced and higher credits, their costs/differences and your recommendation. Explain why the recommended route fits the learner's project. Show image and video totals separately, keep hypothetical teaching prices clearly labeled, and do not generate to discover a price. Reuse known preferences and sufficient authorization; do not add an approval-only lesson turn for every repeated batch.
+
+Apply [director preflight](director-preflight.md) to the learner's current answers and actual references. Explain consequential missing details in plain language: “This is missing and may affect your image/video by [specific defect]. I recommend [specific fix].” Ask the focused clarification before the dependent action; reuse previous answers and continue independent preparation. Teach the relevant distinction, such as her left versus screen-left or turning her head versus turning the recording lens, with a small example or preview when helpful. Do not expose the whole checklist at once.
+
 At each step:
 
 1. Say **Step N — [plain-language goal]** and explain what the user will accomplish in one or two sentences.

@@ -28,6 +28,10 @@ Before realism/accuracy-sensitive generation, establish whose camera records the
 
 Save tokens by omitting unused branches, using a compact accepted-decision record and sending only relevant shot context. Save credits through asset reuse, representative tests, supported low-resolution drafts, exact text/logos in editing and bounded retries. Compare draft plus upscale/retry costs with direct final generation; upscaling cannot repair wrong motion, identity or geometry. Use the model's supported sizes rather than assuming "420p" exists.
 
+Whenever proposing image or video generation, always show three credit options (lower, balanced, higher) with supported provider/model/settings, credits per run, run count, total for the same required deliverable, practical differences and one clear recommendation. Include this in the opening guideline when generation is planned and before each relevant batch; separate image and video costs, then show a combined budget by provider unit. Verify current quotes for the account/channel, including references, minimums, audio, finishing and retries; distinguish base cost, optional reserve and actual debit. Reuse still-valid comparisons briefly on unchanged runs while updating the next charge and remaining cap. Mark preliminary estimates, unknown prices, unverified debits and unavailable options explicitly. Never invent prices, convert unrelated provider credits, equate higher spend with quality or perform paid trials merely to quote. Resolve costs that prevent bounding a charge before submitting; preserve existing sufficient authorization and user choices.
+
+At every active step, review the user's inputs and actual references as a director, content creator and editor. Catch consequential omissions, contradictions, impossible actions and likely rerun causes before drafting/submitting dependent requests. Distinguish camera ownership, subject/body/head/gaze orientation, travel, camera movement, screen direction, subject-relative left/right and mirrored references; record start/middle/end states for turns. Check identity/costume/handedness, exact product operation, forward/reverse geography, lighting/material/contact realism, speech timing/pronunciation, music, edit coverage, tool capabilities and actual attachment/settings selection as applicable. Tell the user what is missing, the concrete defect it may cause, and a recommended fix or reference; ask focused questions and enforce resolution before the affected action. Reuse known answers and delegated reversible defaults, continue independent preparation, and invalidate only dependent work when answers change. Do not equate an approval with verification or promise to catch every possible generated failure. When installed, use the director-preflight reference for detailed checks and the compact issue record.
+
 ## Quick core
 
 - Project:
@@ -43,6 +47,7 @@ Save tokens by omitting unused branches, using a compact accepted-decision recor
 - Conversation and economics: continue / compact / propose fresh task; cost unit, evidence or assumptions, review trigger (assistant completes):
 - Constraints: Must include, preserve or avoid; actual source assets available:
 - Budget: Estimate preference, or an explicit authorized cap with currency/credits and attempt limit; blank means no spending authorization:
+- Generation-credit comparison (assistant prepares): three image options / three video options when applicable; costs and differences / recommendation / quote evidence / combined totals by unit:
 - Deadline:
 - Deliverables: What files or planning outputs do you want now?
 - Style: Mood/tone and one or two references, or recommend:

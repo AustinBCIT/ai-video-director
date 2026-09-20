@@ -11,6 +11,10 @@ The director does not start a lesson by default. Both begin with a Director's Pr
 
 The opening overview recommends a model and reasoning effort for your current stage, plus whether to continue, compact or propose a fresh task. It distinguishes recommended settings from verified active settings and measures savings only when usage evidence supports them. See [model and conversation economics](ai-video-director/references/model-and-context.md).
 
+Before proposed image or video generation, both skills show three credit options, their costs and differences, and one recommendation. Image and video costs are shown separately with totals for the actual deliverable, quote evidence and retry exposure. Unavailable options and unknown prices are labeled honestly. See [generation credit comparisons](ai-video-director/references/efficiency.md#three-generation-credit-options).
+
+Both skills also perform a [director preflight](ai-video-director/references/director-preflight.md) at every active stage. It checks user inputs, orientation, camera ownership, physical action, identity/product/location evidence, continuity, sound and the final tool request. Consequential gaps receive an explanation of the likely defect and a recommended fix; required clarifications are resolved before the affected generation. The user sees the relevant issues, not an exhaustive form to fill.
+
 **[Download the complete ZIP](https://github.com/AustinBCIT/ai-video-director/raw/refs/heads/main/ai-video-director-download.zip)** · **[Beginner start guide](START-HERE.md)**
 
 This is a public download; no Git or GitHub account is needed. The repository also includes all editable skill source files.

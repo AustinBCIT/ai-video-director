@@ -18,6 +18,10 @@ Copy into the working project for sustained work. This is a compact record, not 
 - Fidelity requirement: inspired / recognizable / exact; controlled production route:
 - Readiness: ready / needs preparation / diagnostic only; evidence below:
 - Budget: planning estimate / authorized cap and unit / actual or reserved / attempt cap:
+- Image generation options: lower / balanced / higher; provider/model/settings / cost per run / runs / base and retry reserve / differences / recommendation:
+- Video generation options: lower / balanced / higher; provider/model/settings / cost per run / runs / base and retry reserve / differences / recommendation:
+- Quote evidence and checked time / scope or parameter changes requiring refresh / unknown charges or unavailable options:
+- Combined plan by credit unit / shared preparation counted once / next charge / actual debit or unverified / remaining authorized budget:
 - Deadline / requested deliverables:
 
 ## Accepted decisions
@@ -39,6 +43,16 @@ Copy into the working project for sustained work. This is a compact record, not 
 
 | Item | Proposed value / uncertainty | Required by which action | Next step |
 |---|---|---|---|
+
+## Preflight risks and resolved directions
+
+Use only rows relevant to the active stage; retain resolved critical decisions without copying the entire checklist.
+
+| Stage / shot | Missing or conflicting input | Possible visible/audible defect | Recommendation | Clarify / verify / suggestion; affected action | Answer or evidence / status | Dependencies to update |
+|---|---|---|---|---|---|---|
+
+- Direction-sensitive shot: camera source/operator / coordinates and mirror state / body-head-gaze / travel / camera move and lens target / hand-prop state / start-middle-end landmarks:
+- Assembled request audit: actual prompt / attached reference IDs and roles / settings / quote version / contradictions resolved / remaining required checks:
 
 ## Changes affecting accepted work
 

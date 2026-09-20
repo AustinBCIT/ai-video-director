@@ -29,4 +29,8 @@ Include the director's shared model/effort and conversation-economics recommenda
 
 Support explain more, show an example, recommend, go back, pause and resume. Save the current step, chosen mode, decisions, artifacts and pending choice in the project's existing record.
 
+For proposed image/video generation, always apply the director's three-option credit comparison: state the required credits, explain the differences and recommend one route before the relevant batch. Separate images from videos, show totals for the actual scope, and label unknown or hypothetical prices instead of inventing costs. The shared efficiency guide defines quote validity, missing options and spending boundaries.
+
+At every step, use the shared director-preflight review to check the learner's inputs, reference sufficiency, direction, physical action, continuity, sound and final tool request. Flag consequential missing/conflicting details, explain the likely effect and recommend a fix. Resolve required clarifications before the affected generation, while reusing known answers and continuing independent work; do not burden the learner with the entire checklist or approval-only turns.
+
 To switch to practical production, use `$ai-video-director` and carry accepted decisions forward. Switching modes does not grant spending or publication permission and does not restart the brief.

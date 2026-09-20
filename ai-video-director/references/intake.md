@@ -12,6 +12,10 @@ Then start **Step 1 — Brief and reference check**. Reuse known answers, inspec
 
 Before Step 1, include the concise [model/effort and conversation card](model-and-context.md#opening-recommendation-and-stage-updates) in the guideline/director overview. State a currently available recommendation and reason, whether the setting is verified active, the continue/compact/fresh-task recommendation, and the cost/cache evidence or uncertainty. This is the same opening overview, not a second ceremony. Update it only when the stage or evidence changes. Recommend sensible defaults without requiring the user to become a pricing expert.
 
+If images or videos will be generated, include the [three-option credit comparison](efficiency.md#three-generation-credit-options), separating image and video costs and recommending one route for each needed operation. State what each option costs and changes, with quote evidence or explicit preliminary assumptions. Do not invent a quote before scope/settings are known. Refresh the concrete charge before submission within the existing spending authorization.
+
+Review each answer with [director preflight](director-preflight.md): reconcile it with accepted choices and actual references, flag consequential gaps or contradictions, explain the possible defect and recommend a specific resolution. Clarify direction relative to subject/camera/screen when it affects the shot. Enforce the affected action boundary without blocking unrelated preparation or repeatedly asking settled questions.
+
 Typical sequence, adapted to actual work:
 
 1. Brief and reference check.
