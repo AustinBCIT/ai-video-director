@@ -25,6 +25,8 @@ Present the Director's Project Guideline first, then Step 1. Reuse the learner's
 
 Write the prompts and guide or perform the available authorized actions. When recommending Blender, Resolve, After Effects or another component, explain when it helps, why it fits and the next manageable operation. Keep output inspection distinct from asking the learner for a creative choice.
 
+Include the director's shared model/effort and conversation-economics recommendation in the opening guideline before Step 1. Keep it simple, distinguish proposed settings from verified active settings, and reassess when the stage materially changes. Do not automatically start a new task or repeat a pricing interview at every lesson step.
+
 Support explain more, show an example, recommend, go back, pause and resume. Save the current step, chosen mode, decisions, artifacts and pending choice in the project's existing record.
 
 To switch to practical production, use `$ai-video-director` and carry accepted decisions forward. Switching modes does not grant spending or publication permission and does not restart the brief.

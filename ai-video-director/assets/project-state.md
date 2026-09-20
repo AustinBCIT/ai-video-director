@@ -9,6 +9,11 @@ Copy into the working project for sustained work. This is a compact record, not 
 - Tutorial: practice or real deliverable / learning goal / pending learner choice / resume action:
 - Runtime / aspect / dimensions / frame rate:
 - Allowed and verified tools / excluded tools:
+- Director model / supported effort recommendation / stage-specific reason:
+- Active model and effort: verified value or unknown / selection applied or recommendation only:
+- Availability and pricing evidence / account or billing mode (no credentials) / checked date:
+- Conversation strategy: continue / compact if supported / propose fresh task; reason / next review trigger:
+- Economics: unit / measured versus estimated / cache read-write evidence or unknown / cold-warm assumptions / handoff and rework costs:
 - Camera image source / operator / orientation states / origin of decision:
 - Fidelity requirement: inspired / recognizable / exact; controlled production route:
 - Readiness: ready / needs preparation / diagnostic only; evidence below:
@@ -57,3 +62,4 @@ Copy into the working project for sustained work. This is a compact record, not 
 - Last usable result:
 - Next action:
 - Read next: only the relevant file/section and tool reference:
+- For a proposed fresh task: accessible artifact paths / references to reattach / pending jobs and charges / authorization carried forward / recommended model and effort / explicit creation request status:

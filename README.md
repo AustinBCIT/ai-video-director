@@ -9,6 +9,8 @@ Two distinct Codex skill invocations share the same video-production rules:
 
 The director does not start a lesson by default. Both begin with a Director's Project Guideline and reuse your existing decisions.
 
+The opening overview recommends a model and reasoning effort for your current stage, plus whether to continue, compact or propose a fresh task. It distinguishes recommended settings from verified active settings and measures savings only when usage evidence supports them. See [model and conversation economics](ai-video-director/references/model-and-context.md).
+
 **[Download the complete ZIP](https://github.com/AustinBCIT/ai-video-director/raw/refs/heads/main/ai-video-director-download.zip)** · **[Beginner start guide](START-HERE.md)**
 
 This is a public download; no Git or GitHub account is needed. The repository also includes all editable skill source files.
@@ -44,6 +46,7 @@ In the tutorial you can say **recommend**, **explain more**, **go back**, **paus
 ## What the tutorial covers
 
 - A Director's Project Guideline first, followed by Step 1 and only the questions needed next.
+- Model/effort recommendations before work and at meaningful stage changes; cache-aware comparisons that include handoff costs and preserve accepted decisions.
 - Choosing the viewer's experience, camera viewpoint and reference requirements.
 - Story, dialogue, pronunciation, music/no-music decisions and sound review.
 - Character sheets with front, both profiles, back and relevant three-quarter/detail views.

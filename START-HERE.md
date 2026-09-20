@@ -62,6 +62,10 @@ Useful replies:
 
 Expect a Director's Project Guideline first, followed by Step 1. After that, only the current step should expand. The assistant should reuse your earlier answers.
 
+The opening overview also recommends a model and reasoning effort, explains why they suit this stage, and says whether to keep working in this task. A recommendation does not change your active model: use Codex's model/effort controls if a change is needed. The assistant should identify any setting it cannot verify. You do not need to understand token billing to start.
+
+As the work changes, the assistant should reassess these choices. Staying can retain useful context and eligible cached computation; a fresh task can reduce irrelevant history but needs a prepared handoff. Neither is automatically cheaper. If exact cache/usage information is unavailable, the recommendation should say so instead of promising a percentage saving. The assistant proposes a fresh task and prepares the handoff; it creates one only when you explicitly ask. Read [the detailed guide](ai-video-director/references/model-and-context.md) if you want the accounting rules and examples.
+
 ## 4. Learn only the tools your project needs
 
 | Tool | What you would learn | Good reason to use it |

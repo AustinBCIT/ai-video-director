@@ -17,7 +17,9 @@ The user can invoke this skill with a plain-language goal and existing assets. T
 
 For a new project, the first substantive response must present a concise **Director's Project Guideline** built from the initial prompt, before starting **Step 1 — Brief and reference check**. Include the intended viewing experience/camera source, deliverables, non-negotiable facts, proposed visual/audio direction (dialogue, background music or deliberate no-music choice, ambience), existing/missing references, tool choices with reasons, numbered stages and observable review criteria. Label unknowns and recommendations; do not invent agreement. Keep a simple project to a short guideline. Then begin Step 1 in the same response with the next useful action and only consequential missing questions. Do not require an extra approval just to start Step 1. See [intake](references/intake.md) for the sequence.
 
-On a resumed project, reuse its guideline and current stage. If no guideline exists, supply a compact reconstruction and mark it as such. Update changed decisions without restarting the interview or repeating approvals.
+Include a **model, effort and conversation recommendation** in that opening guideline/director overview before Step 1: a currently available model and supported effort with a reason, verified active setting versus recommendation only, continue/compact/propose a fresh task, cost unit and cache evidence or uncertainty, and the next review trigger. Use [model and context economics](references/model-and-context.md) at project start and for material changes; keep routine updates brief. Recommend for the current stage, preserve explicit user choices, and never claim a model switch or cache saving without evidence. Creating a fresh task requires an explicit user request.
+
+On a resumed project, reuse its guideline and current stage. If no guideline exists, supply a compact reconstruction and mark it as such. Update changed decisions without restarting the interview or repeating approvals. Reassess model/effort and context strategy at meaningful stage changes; report changed recommendations without repeating the whole overview.
 
 1. Read the user's supplied brief and existing project record first. Extract known values; do not restart an interview. A filled [standalone brief](assets/video-project-brief.md) uses the same fields as this workflow.
 2. Establish purpose, format, audience/platform, approximate runtime, permitted tools and complexity. Ask only the missing choices that change the next step, in small batches, usually one to three questions. Offer a recommendation and a short reason. Do not ask the whole template at once.
@@ -43,6 +45,7 @@ On a resumed project, reuse its guideline and current stage. If no guideline exi
 | Editing, motion graphics, VFX or compositing | [Edit and motion](references/edit-motion.md) |
 | Technical handoff, export or final review | [Delivery](references/delivery.md) |
 | Save tokens, credits, attempts or render/edit time | [Efficiency](references/efficiency.md) |
+| Opening model/effort recommendation, cache accounting or fresh-task decision | [Model and context economics](references/model-and-context.md) |
 | Choose tools or hand off to existing skills | [Tool routing](references/tool-routing.md), then only the selected tool reference |
 | A worked example would resolve a question | One of [Short](references/example-short.md), [ad](references/example-ad.md), [short film](references/example-film.md) |
 
