@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI Video Director"
+  short_description: "Direct video projects from brief through production review"
+  default_prompt: "Use $ai-video-director to work on my video project. Present the Director's Project Guideline, then begin Step 1 and complete the requested production work."
