@@ -1,6 +1,6 @@
 ---
 name: ai-video-director
-description: Guide video planning, scripts, visual references and production handoffs, or teach the process through an interactive beginner tutorial with user choices. Use for end-to-end video direction, a reusable brief or guided practice; use specialist execution skills for isolated production tasks.
+description: Direct actual video projects through planning, scripts, visual references, production handoffs and quality review. Use for creating or revising a video or preparing a practical production brief. For a step-by-step teaching session, use ai-video-director-tutorial instead.
 ---
 
 # AI Video Director
@@ -11,7 +11,9 @@ The user can invoke this skill with a plain-language goal and existing assets. T
 
 ## Start or resume
 
-When the user asks for a tutorial, walkthrough, beginner lesson or to learn step by step, use [guided tutorial mode](references/guided-tutorial.md). Keep it inside this skill so it shares the same production and review rules. Offer one active step at a time, not a complete questionnaire. A request to write or update the tutorial is an authoring task, not a request to enroll the current user in a lesson.
+**Invocation: `$ai-video-director` means work on the actual video project.** Default to practical execution within the requested stage and existing authorization. Write the prompts, prepare artifacts, recommend tools and ask only consequential missing questions. Do not offer a lesson, introduce practice exercises or pause for pedagogical choices unless teaching is requested. The Director's Project Guideline and Step 1 are production organization, not an automatic tutorial.
+
+**Teaching has a separate invocation: `$ai-video-director-tutorial`.** That companion loads the shared [guided tutorial](references/guided-tutorial.md) and production rules. If the user explicitly asks to switch to teaching, use the companion when installed; otherwise use the shared tutorial reference as a clearly stated fallback. Keep accepted project decisions and authorization when switching modes. A request to write or update the tutorial is an authoring task, not an instruction to begin a lesson.
 
 For a new project, the first substantive response must present a concise **Director's Project Guideline** built from the initial prompt, before starting **Step 1 — Brief and reference check**. Include the intended viewing experience/camera source, deliverables, non-negotiable facts, proposed visual/audio direction (dialogue, background music or deliberate no-music choice, ambience), existing/missing references, tool choices with reasons, numbered stages and observable review criteria. Label unknowns and recommendations; do not invent agreement. Keep a simple project to a short guideline. Then begin Step 1 in the same response with the next useful action and only consequential missing questions. Do not require an extra approval just to start Step 1. See [intake](references/intake.md) for the sequence.
 
