@@ -1,4 +1,0 @@
-interface:
-  display_name: "AI Video Director Tutorial"
-  short_description: "Learn video creation through simple, guided choices"
-  default_prompt: "Use $ai-video-director-tutorial to teach me step by step. Show the Director's Project Guideline, then begin Step 1 with one simple choice and your recommendation."
