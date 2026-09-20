@@ -8,6 +8,8 @@ Use this mode when the user asks to learn, run a tutorial or work through the pr
 
 Begin with the Director's Project Guideline from [intake](intake.md), then Step 1 in the same response. Show a short roadmap once; expand only the active step. Record choices, examples, outputs, outstanding evidence and the next action in [project state](../assets/project-state.md). A resumed tutorial continues where it left off.
 
+Include the shared [model/effort and conversation recommendation](model-and-context.md) in that opening overview. Explain the choice in one plain-language sentence: simple lesson choices need less reasoning than solving difficult continuity problems. Name a verified available model and supported effort; distinguish recommended from actually active. Explain cache uncertainty without an economics lecture or another mandatory learner question. At meaningful stage changes, briefly update the recommendation if needed. A fresh task is a proposal until the user explicitly requests it; save the lesson's decisions and pending choice first.
+
 At each step:
 
 1. Say **Step N — [plain-language goal]** and explain what the user will accomplish in one or two sentences.
@@ -31,6 +33,8 @@ Use this as a pattern, not fixed wording or a default project imposed on the lea
 > We'll turn one small idea into a clear video plan, then make it if you want and the tools are available. I'll explain each decision and write the prompts. We'll use references, check picture and sound, and choose software only when it helps. We can start with a planning exercise without paid generation.
 >
 > Our path is: 1 choose the idea and references; 2 write the short story and sound plan; 3 prepare the look; 4 preview movement; 5 make the selected shots; 6 edit and review. Unknown choices remain open, and we can skip irrelevant steps.
+>
+> Model/effort: [available lightweight model / supported low effort] for these first simple choices; [active setting status]. We'll continue here to retain your answers. [Cost unit]; cache savings are unverified. I'll reassess when the work becomes more complex. Replace these brackets using current evidence.
 >
 > **Step 1 — Choose a small project**
 >

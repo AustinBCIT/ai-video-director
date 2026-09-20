@@ -51,6 +51,8 @@ Longer generation, extension, edit modes, presets and "fast" tiers are not inher
 
 ## Reasoning-token tactics
 
+At the opening director overview and relevant stage changes, use [model and context economics](model-and-context.md) to recommend a qualified model, supported effort and whether to continue, compact or propose a fresh task. Distinguish recommendations from applied settings and measured costs from estimates. Compare the full stage, including handoff and rework; caching does not make history free or reduce its context size.
+
 - Intake from existing facts; ask only the next consequential missing choice. Offer defaults for reversible decisions instead of long questionnaires.
 - Keep `SKILL.md` as the router. Load the chosen format/stage and tool adapter, not every reference. Read only the relevant section of a large file when tooling allows it.
 - Use one compact project record with accepted choices, asset IDs, open issues and next action. Reference the record on resume; do not paste full historical chats.

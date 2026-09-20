@@ -10,6 +10,8 @@ Present the guideline in user-facing language: intended result and camera experi
 
 Then start **Step 1 — Brief and reference check**. Reuse known answers, inspect supplied assets, identify missing evidence and request only the inputs that matter next. A reference request should say which view/clip/detail is needed, why, what it will control and whether public research or a labeled approximation is an alternative. Never pretend a reference exists or silently replace a real-location reference with generated imagery. See [reference acquisition](visual-development.md#reference-acquisition-before-dependent-prompts).
 
+Before Step 1, include the concise [model/effort and conversation card](model-and-context.md#opening-recommendation-and-stage-updates) in the guideline/director overview. State a currently available recommendation and reason, whether the setting is verified active, the continue/compact/fresh-task recommendation, and the cost/cache evidence or uncertainty. This is the same opening overview, not a second ceremony. Update it only when the stage or evidence changes. Recommend sensible defaults without requiring the user to become a pricing expert.
+
 Typical sequence, adapted to actual work:
 
 1. Brief and reference check.
