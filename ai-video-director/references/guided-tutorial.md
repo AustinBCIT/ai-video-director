@@ -2,6 +2,8 @@
 
 ## Tutor contract
 
+Start this lesson through **`$ai-video-director-tutorial`**. Use **`$ai-video-director`** for actual project work without lesson pacing. This file is shared curriculum loaded by the companion tutorial skill; it does not make every director invocation a lesson.
+
 Use this mode when the user asks to learn, run a tutorial or work through the process step by step. It is an interactive conversation led by the assistant, not a long article, software manual or form the user must fill. Use the user's project if supplied. Otherwise offer a small practice project without assuming they want a film career, paid tools or advanced 3D.
 
 Begin with the Director's Project Guideline from [intake](intake.md), then Step 1 in the same response. Show a short roadmap once; expand only the active step. Record choices, examples, outputs, outstanding evidence and the next action in [project state](../assets/project-state.md). A resumed tutorial continues where it left off.
