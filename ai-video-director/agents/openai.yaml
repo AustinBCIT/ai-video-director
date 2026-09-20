@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI Video Director"
+  short_description: "Plan videos or learn with a guided, step-by-step tutorial"
+  default_prompt: "Use $ai-video-director to guide my video project, starting with the Director's Project Guideline and Step 1; offer tutorial mode if I want to learn as we go."
