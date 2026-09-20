@@ -16,6 +16,10 @@ For execution, verify readiness and supported settings, inspect existing job/ret
 
 **Optional comparison exercise:** only if the learner requests it or a recurring failure justifies a bounded test, load [comparative tests](comparative-tests.md). In planning practice, compare two written prompts and identify one changed variable; clearly say that this does not test rendered quality. Actual media A/B tests need a selected scope, adequate review and existing sufficient budget; never spend twice merely to teach comparison.
 
+### Optional sequence exercise
+
+When connected shots are active, use [sequence anchors](shots-prompts.md#sequence-anchors-and-generation-units) to explain why a middle dialogue scene may be planned first. Sketch arrival -> stopped scene -> exit and check one consequential clearance or seat/door relationship through [spatial blocking](spatial-blocking.md). For footage inside a display, map a short source clip into the outer shot with [screen content](screen-content.md), resolving any remaining interval. Use only the active example, preserve already decided facts and ask at most the next unresolved learner choice.
+
 ## Step 6: Finish, review and learn from the result
 
 **Guide:** use the selected editor to assemble, trim, mix sound, match color, add requested captions and export. Load [edit and motion](edit-motion.md), [audio](audio-captions.md) and [delivery](delivery.md) only for the relevant work.
@@ -23,3 +27,5 @@ For execution, verify readiness and supported settings, inspect existing job/ret
 Review the whole video with sound, then inspect difficult frames/transitions. Check viewpoint, character/product identity, contact/gait, stable geography/signs, dialogue pronunciation and lip-sync, music masking/cues, ambience continuity and technical specs. Screenshots/transcripts cannot certify the unheard/unwatched properties. Use a capable reviewer when necessary; mark failed and unverified criteria honestly. A newly found defect follows the conditional repair lesson above; reuse its saved decision if already resolved rather than restarting the lesson.
 
 **Small result:** the reviewed export and editable source if requested, or the completed practice plan. End with the files/links, what was actually made, remaining defects and a short explanation of why the chosen tools helped. Offer one optional next learning exercise instead of automatically starting another project.
+
+For flexible narration over existing footage, the relevant exercise is [footage-first narration](audio-captions.md#footage-first-narration-when-the-visuals-already-exist). For selecting pieces of takes or a precise match cut, use [selects and joins](edit-motion.md#selects-and-designed-joins). Teach one inspected example and its timing; do not claim a written exercise verifies motion or sound.

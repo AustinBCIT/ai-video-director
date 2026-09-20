@@ -70,6 +70,18 @@ Record `shot/version | observed defect and time/frame | evidence/reviewer | like
 - **Intervention:** obtain an accurate spoken sample; bind it only through supported controls; retime or revise unlocked copy/coverage, repair off-camera speech or use a verified lip-sync route. Do not correct speech by changing captions alone. A closure map can aid observation but does not replace listening or language expertise.
 - **Pass:** critical pronunciation, natural pacing, mouth/audio timing and intelligibility through the whole relevant passage and final mix. A transcript or waveform alone cannot pass it.
 
+## Exact contact, displayed media or population failure
+
+Load only the relevant owner below after the repair decision; each owns its detailed record and acceptance checks.
+
+| Observed defect | Inspect / targeted intervention | Preserve and verify |
+|---|---|---|
+| Wrong control, disappearing prop or impossible removal | [Precision actions](precision-actions.md): verified mechanism, transformed target, hand occupancy and causal phases; correct the reference/control or isolate the action | Correct object/identity, contact through release/result, prop destination and no annotation leakage |
+| Screen grows, wrong channel, invented UI or mismatched playback | [Screen content](screen-content.md): outer geometry, source version and timeline map; compare tracked replacement against source regeneration | Bezel/foreground layers, required pixels/text, full playback and deliberate sound |
+| Cloned extras, wrong interaction partners or changing scale | [Crowds and scale](crowds-and-scale.md): hero versus population roles, pairings, paths and scale anchors | Hero identities, readable variation, partners and relative proportions throughout motion |
+| Correct logo but wrong product body; inconsistent extracted views | [Reference preparation](reference-preparation.md): mark versus geometry authority and source-frame provenance; replace only inadequate evidence | Accepted canon, adequate resolution and cross-view construction; do not promote drift into canon |
+| Wrong seat/door, blocked departure or diagram marks in output | [Spatial blocking](spatial-blocking.md): coordinate frame, seat map, clearances and diagram role; update the anchor and affected dependents | Accepted layout, feasible route and adjoining window/background geometry |
+
 ## Cost or job-state mismatch
 
 - **Inspect:** submitted settings/count, quote unit, selected model/operation, job IDs, pending reservations and observed debit.

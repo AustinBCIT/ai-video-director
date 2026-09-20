@@ -8,6 +8,14 @@ For dialogue/VO, establish speaker ID, language, pronunciation, performance and 
 
 ## Guideline and preproduction sound checks
 
+### Footage-first narration, when the visuals already exist
+
+For an accepted visual sequence with flexible narration, inspect the actual footage and map `shot/source interval | visible event | story point | available speech interval`. Draft speech around the observed events, allow reactions and breathing room, and time an actual delivery before final mixing. Verify factual claims independently; a generated animal or product action is not evidence that the claim is true. If the footage cannot be inspected, keep the event map provisional.
+
+Use script-first timing when exact copy, dialogue, lip-sync or a music structure controls the sequence. Footage-first is an optional route, not permission to rewrite locked words. After either route, listen to the finished mix and check image/speech alignment.
+
+### Sound decisions and evidence
+
 In the opening Director's Project Guideline, explicitly state dialogue/VO, background music and ambience as selected, proposed, absent or unresolved. Do not treat a missing music field as an instruction to add a track. For a natural location vlog, location sound without music can be the recommended default; preserve any user's existing no-music direction.
 
 Before picture timing depends on sound, check:

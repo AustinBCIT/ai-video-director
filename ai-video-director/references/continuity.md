@@ -29,6 +29,10 @@ A start-frame reference is insufficient proof of continuous geography. Use contr
 
 Record incoming state, outgoing state and intentional change. Example: S03 ends with a red cup in the right hand at chest height; S04 begins with the cup in that hand, with matching screen direction. A jump to the left hand needs an intervening action or an intentional discontinuity.
 
+For a designed transition, prepare the receiving composition/version before committing the outgoing shot. Record the shared subject position, scale, direction, motion phase and sound cue. A matching endpoint still does not prove a matching velocity, timing or audio transition. Reference the destination as a dependency; if it changes, review the outgoing transition too. Screen-to-scene transitions use [screen content](screen-content.md); arrival/stop/departure uses [spatial blocking](spatial-blocking.md).
+
+Assemble neighboring scenes early to detect missing causal or travel information. Add a bridge only when the audience otherwise reads an unintended teleport or loses the story; intentional ellipsis remains valid. A travel bridge should show the needed intermediate geography without prematurely revealing the destination. Also check that repeated overlap between generated units has been trimmed.
+
 Some mismatches are best fixed in the edit, crop or audio bridge; others change identity or product truth and require correction. Choose the least costly fix that preserves the shot's purpose.
 
 ## Revision propagation

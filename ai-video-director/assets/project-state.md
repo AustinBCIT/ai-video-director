@@ -41,12 +41,16 @@ Keep compact records here or link authoritative files; omit this section for ord
 - Character: CHAR/version + canonical/angle assets and fixed identity; COST/version + variant; PERF/version + speech/motion/rest; voice source/status; current scene intention/gaze/hands; evidence and dependents.
 - Scene: ENV/layout version + source/scale/landmarks; allowed moving elements; look/time state; route/forward-reverse coverage; unknowns and dependent shots.
 - Selected style versus factual constraints: treatment/allowed variation; explicit overrides; provider-specific settings kept in shot records.
+- Conditional records: link the relevant action/contact, screen playback, population/scale or spatial plan; omit unused records. Reference derivatives retain source/version, frame/timebase or crop, inspected property and unresolved gaps.
 - Change classification: shot / costume / identity state / performance or voice / layout / scene state; changed and preserved fields; old/new authority/status; affected shots; verification before promotion.
 
 ## Shots and production
 
 | Shot ID | Source/edit duration | Start -> action -> end | Assets | Tool/settings/job ID | Status / issue |
 |---|---|---|---|---|---|
+
+- Sequence anchors and dependent joins, when needed: accepted shot/state/version / arrival and departure or receiving-shot dependencies / changed constraints requiring review.
+- Selected take segments, when needed: source/version / in-out and timebase / beat / preserved criteria / adjacency issue.
 
 ## Open choices and assumptions
 

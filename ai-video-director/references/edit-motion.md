@@ -6,6 +6,12 @@ Inventory usable clips, takes, graphics and sound. Preserve originals and identi
 
 Choose cuts for information, action, reaction or emotion. Establish a rhythm appropriate to comprehension; faster is not inherently better. Use J-cuts (next sound begins before its image), L-cuts (previous sound continues under the next image), match cuts or cutaways when they serve continuity. Do not add decorative transitions to every boundary.
 
+## Selects and designed joins
+
+When different takes contain usable pieces, keep a compact selects record: `source/version | in/out and timebase | intended beat | passing properties | defects outside/inside the selection | adjoining state`. Preserve the selected micro-pause, reaction and edit handles. Assemble and listen before regenerating the whole sequence; combining takes still requires matching identity, props, geography, color and sound.
+
+For an exact match cut, define both sides: subject center/size, angle, rotation or travel direction, motion phase and cut frame. Assemble the join in the editor and inspect it at speed; asking a generator for “match cut” does not guarantee aligned shots. If no adequate match exists, choose another motivated transition within scope or prepare the missing coverage. For meaningful footage inside a display, use [screen content](screen-content.md).
+
 ## Motion design specification
 
 Define a style frame, hierarchy, exact text, typography, color, alignment and safe region. Then define start state, entrance, readable hold, exit, easing and motion blur. Use seconds/frames tied to the timeline. For reusable templates, expose text/color/layout controls and plan bounds for longer copy/localization.

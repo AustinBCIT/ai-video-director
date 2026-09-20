@@ -35,6 +35,8 @@ Allocate time for turns, settling, speech and continued walking. Time spoken aud
 
 Record actor/object positions, movement path, gaze target, camera side of the action axis and screen direction. Maintain the 180-degree relationship where continuity depends on it, or motivate a crossing with an understandable camera move/re-establishing view. Match gaze and motion across cuts. A deliberate discontinuity is valid when the effect is intended.
 
+For vehicle seating, curb-side exits, stopping clearance or trajectory diagrams, load [spatial blocking](spatial-blocking.md). If dense action overloads a wide shot, tighter coverage may preserve the key event with fewer competing constraints. Retain required geography and spectacle; a must-have wide may need controlled staging rather than a crop.
+
 ## Lighting
 
 Specify motivated source, direction, size/softness, contrast, practicals, ambient fill, color relationship and time/weather. Preserve catchlight and shadow direction across connected shots. Describe "large soft window source from frame left, darker camera-right side" before brand names for lights. Product work may require reflection cards, controlled specular highlights and separation from the background.

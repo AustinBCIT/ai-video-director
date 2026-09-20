@@ -12,6 +12,8 @@ Start with a small number of distinct directions only when the user needs a choi
 
 Inventory existing files, supplied links, accepted assets and verified public sources before requesting more. Record source/date, what each asset establishes, missing coverage and whether it is actually available to the downstream tool. A filename or URL in a prompt is not automatically an attached model input. Ask for specific user-owned references when needed; use available research for public facts rather than making the user gather everything.
 
+Create references in proportion to specificity, recurrence and failure risk. A flexible one-off background may be described directly; exact products, recurring geography and consequential reveals need suitable evidence. Keep required character coverage complete while selecting only sufficient shot inputs. For crops, clean plates, look transfer, scoped identity repair or stills from footage, load [reference preparation](reference-preparation.md); for population variety, load [crowds and scale](crowds-and-scale.md).
+
 | Need | Best evidence to seek | When to request or acquire it |
 |---|---|---|
 | Named real location | Current photos from the relevant street/directions, readable signs/stall details, day/night context; walking video for motion and route | Before a location-accurate hero frame or 3D build; ask user for a specific street/route only if that choice matters |
@@ -96,6 +98,8 @@ Use real product photos, dimensions, approved labels and functional details when
 
 Track asymmetric details explicitly: logo side, clasp position, handedness, pocket, scar or accessory. Mirroring an image can create a continuity error even when it looks attractive. A wardrobe change gets a new variant ID linked to the same character identity.
 
+Choose extra views from the action and reveal: a rollover needs underside evidence; a wing spread needs joints and extended form; a saddle interaction needs its attachment and contact area. A generic view count can miss the required surface. For exact controls or detachable props, use [precision actions](precision-actions.md); for a working display, use [screen content](screen-content.md).
+
 ## Sprite sheets and 3D references
 
 Only load this branch for sprite/animation/modeling needs. Specify dimensions, frame count/order, consistent pivot/baseline, padding, alpha and intended action. Orthographic modeling views need consistent scale and alignment; perspective concept art cannot establish exact orthographic geometry. Keep facial-expression studies separate from the base sheet unless the downstream tool specifically needs them.
@@ -103,3 +107,5 @@ Only load this branch for sprite/animation/modeling needs. Specify dimensions, f
 ## Acceptance
 
 Check identity, proportions, symmetry/asymmetry, garment construction, prop count, materials, environment layout, intended aspect/crop and unwanted text. Record what is accepted and unresolved. Review references at the size/angle they will actually support. A tiny face in a full-body sheet may be insufficient for a later facial close-up.
+
+Also check usable volume: silhouette, thickness, shape, contact/shadow and highlight behavior. Texture detail alone can disguise a flat or malformed object. An oblique location view helps expose depth but does not verify its unseen reverse. Neutral gray is one background choice, not a proven universal improvement; choose separation and readability for the actual subject.

@@ -52,9 +52,19 @@ Adapt to actual tool syntax. Negative prompts, seeds, start/end frames, referenc
 
 For complex movement, describe start -> action -> end, timing ranges and physical contact. Distinguish subject motion, camera motion and edit transitions. Split actions when a shot contains too many simultaneous constraints. Start/end reference images help only when supported and visually compatible; widely different geometry can produce morphing.
 
+Describe behavior by phase when mechanics change: tuck during descent, extend to arrest the fall, then glide; or reach, peel, release and settle. Name the trigger and visible response instead of relying on “realistic physics.” Allow time for the same hand to move between controls. Use [precision actions](precision-actions.md) for exact contact and [spatial blocking](spatial-blocking.md) for consequential paths. Resolution, temporal consistency and correct mechanics are separate acceptance criteria; a 4K setting does not prove the latter two.
+
 For image-to-video, prioritize what changes and what stays fixed; avoid unnecessarily redescribing a clear accepted frame into a different scene. For multi-shot modes, verify that shot timing and references can be controlled; otherwise produce separate clips. Model-native editing/extension also needs a defined unchanged region/time and an actual input video.
 
 For footage from the presenter's own camera, explicitly assign the viewer to that optical viewpoint. Plan outward view -> motivated lens turn -> brief selfie speech -> return to outward view as separate orientation states with continuous position, geography and sound. Do not use an external shot of the presenter holding the device as the start frame for its recorded footage. Verify the line plus turns fits the runtime before submitting; do not hide a timing conflict in a long prompt.
+
+## Sequence anchors and generation units
+
+Story order need not be production order. Identify the shot/state that fixes the most consequential shared constraints: a stopped dialogue scene may determine vehicle position, occupants, window backgrounds and the endpoints of arrival and departure. Establish that anchor first when it reduces uncertainty; then construct its dependents. Do not force every sequence to have a new anchor asset.
+
+Split overloaded arrival/dialogue/exit or action/reaction requests into usable generation units when their timing or control conflicts. Allocate actual action, dialogue, reaction and handles in an animatic; several requested cuts in a few seconds may be infeasible. Verify native multi-shot support rather than assuming “cut to” enforces an edit. Preserve a requested continuous take through a more controllable route if splitting would break the brief.
+
+Record each unit's start/end state and eventual source trim. When two units contain the same arrival or gesture, choose the join and remove accidental repetition in the edit. An accepted anchor guides later shots but does not guarantee they will match; [continuity](continuity.md#per-shot-transition) owns the adjoining-state review.
 
 ## Generation review
 

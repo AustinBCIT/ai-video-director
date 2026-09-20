@@ -10,6 +10,8 @@ Extract what is already known. First show the Director's Project Guideline, then
 
 ## Guideline first, then numbered work
 
+When a reusable written intake artifact is requested, use the [project brief template](../assets/video-project-brief.md). Complete only useful fields from accepted facts; it is optional and does not replace the concise opening.
+
 Present the guideline in user-facing language: intended result and camera experience; constraints/fidelity; proposed look and sound; asset/reference gaps; tool choice and tradeoff; stage outputs; acceptance checks. Include background music as selected, proposed, deliberately absent or unresolved, plus dialogue/voiceover language and pronunciation needs. It is a director's plan derived from the prompt, not a questionnaire for the user to fill.
 
 Then start **Step 1 — Brief and reference check**. Reuse known answers, inspect supplied assets, identify missing evidence and request only the inputs that matter next. A reference request should say which view/clip/detail is needed, why, what it will control and whether public research or a labeled approximation is an alternative. Never pretend a reference exists or silently replace a real-location reference with generated imagery. See [reference acquisition](visual-development.md#reference-acquisition-before-dependent-prompts).

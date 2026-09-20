@@ -24,6 +24,8 @@ For narrator-led work, agree tone, language/accent where relevant, pronunciation
 
 Plan the images the editor needs to convey the turn. A shot can serve more than one purpose, but include readable starts/ends and suitable handles. Use sound to establish off-screen space, anticipate a transition or reveal emotion; it need not always duplicate what the image shows.
 
+Name what the viewer notices first and what changes: a reveal, decision, reaction, contrast or meaningful hold. Not every shot needs a stunt or camera move. Leave room for a micro-pause before a choice and for the reaction/payoff afterward. Check that the ending completes the protagonist's intended turn; do not lose that closure while trimming technical failures. Early adjacent-shot assembly can expose missing [bridges](continuity.md#per-shot-transition).
+
 ## Example beat
 
 Scene purpose: a courier decides to help a stranger despite being late. Beat 1: clock and impatient foot establish urgency. Beat 2: dropped belongings interrupt the path. Beat 3: glance toward exit, then a choice to kneel and help. Beat 4: shared reaction completes the turn. The watch/hand action needs continuity; four dramatic camera moves do not.

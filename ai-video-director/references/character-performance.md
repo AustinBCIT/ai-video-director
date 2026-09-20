@@ -56,4 +56,12 @@ Change record: `entity/version -> changed fields -> preserved fields -> authorit
 
 ## Verify before reuse
 
+### Removable props and acting revisions
+
+A disguise is a linked look branch, not a different identity. Plan its visible state before, during and after removal: attached fake mustache/cap/glasses, acting hand, detachment and where each prop ends. Use [precision actions](precision-actions.md) for the contact sequence. After removal, bind the accepted uncovered state to later shots; the discarded disguise reference must not restore the prop. Track an intentional costume or identity change separately.
+
+For an acting repair, identify one observable dimension to adjust while preserving what worked: reduce smile amplitude while retaining irony, or add a brief decision pause without slowing the entire scene. Do not swing from a broad smile to blank affect through an indiscriminate opposite instruction. Compare takes in context with dialogue and adjoining reactions. A still establishes expression only at that instant.
+
+### Reuse checks
+
 Compare accepted and proposed references for face proportions, age presentation, hairline, asymmetric marks, body proportions and costume construction at useful resolution. Compare performance against the scene: correct voice, intended gaze, plausible hands/props, gesture and breath timing. For a turn, inspect actual intermediate angles/motion; a sheet does not establish a working 3D identity. On failure load only the relevant [repair card](repair-cards.md), then record what was actually observed.

@@ -31,6 +31,16 @@ Use these requests with the stated raw facts, then evaluate against the rubric b
 | G | “Static scene, clean air, no music. Just prepare a composition sketch; no generation.” |
 | H | “Teach me with my existing phone clips. I want natural sound and no invented people.” |
 | I | “The sign changes letters after a pedestrian passes it. The face and sound already pass. Diagnose it before another run.” |
+| J | A remote's clean source is rotated 90 degrees relative to a marked copy. “Press the marked upper channel control once, then release.” Actual mechanism evidence is supplied. |
+| K | “Preserve this exact six-second clip inside the TV throughout an eight-second room shot.” No handling for the remaining two seconds is specified. |
+| L | “A varied crowd surrounds our recurring hero. Then reveal two tiny performers beside a boot.” A hero portrait and a board of different extras are supplied. |
+| M | “Show this accepted truck rolling over.” Only front and side images exist; the chassis is not visible. |
+| N | “Write narration to fit this accepted wildlife clip.” Visual events are inspectable, scientific claims are not supplied, copy is flexible. |
+| O | “Plan arrival, cabin dialogue, passenger exit and direct drive-away.” A stopped-car anchor sits tightly between two parked cars; the passenger's seat is fixed. |
+| P | “Use these extracted cabin stills as our references.” Source frames show different steering-wheel spokes; a sharp logo crop is also supplied. |
+| Q | “He peels off his fake mustache, then speaks in the next shot.” Both disguised and clean accepted states exist, but the next-shot input still points to the disguise. |
+| R | Two generated clips both contain the arrival; each has a good reaction in a different take. “Assemble them and match-cut the steering wheel to the road wheel.” |
+| S | “Prepare a simple static portrait from this accepted reference. No new generation.” No action, display, crowd or continuity requirements. |
 
 ## Evaluation rubric
 
@@ -45,5 +55,15 @@ Use these requests with the stated raw facts, then evaluate against the rubric b
 | G | No handheld/haze/film/music defaults, no paid generation or irrelevant credit table; no character/bible/evaluation modules needed |
 | H | Guided editing route, relevant sound/editor lessons, no compulsory character sheets or 3D rebuild; one useful learner choice at a time |
 | I | Targeted geography/text diagnosis, preserve passing face/audio, no blind paid retry; source versus tracked repair decision and recheck after occlusion |
+| J | Target resolved in object coordinates with transforms accounted for; separate clean/marked roles, hand/contact/release/result, no annotation in final and no still-only motion pass |
+| K | Explicit timeline mapping and unresolved interval; controlled composite for exact source fidelity, correct crop/occlusion/audio, no universal equal-duration rule |
+| L | Hero identity separated from population variation; no full bible per extra; boot/performer scale stable through the move and correct interaction roles |
+| M | Missing underside identified as reveal-specific evidence; reuse sufficient existing views without unnecessary character assets or invented exact construction |
+| N | Event map from inspected footage, independently sourced factual claims, timed speech with pauses; script-first retained when copy is locked, no unheard mix claim |
+| O | Anchor/seat/curb/door/exit path considered before dependent production; obstructed departure resolved, only affected dependencies revised; no assumption the still proves movement |
+| P | Source clip/version/frame provenance sought, drifted geometry rejected; logo authority limited to mark, usable geometry evidence needed; no “all frames consistent” claim |
+| Q | Same identity with look-state transition, physical peel and prop destination; clean state bound downstream, previously valid disguised shots preserved |
+| R | Source in/out/timebase recorded, duplicate arrival trimmed, reactions preserved, geometric/motion match cut constructed and reviewed in editor; no phrase-only guarantee |
+| S | Uses existing reference and relevant portrait guidance only; no loading of the five conditional modules, new generation or unnecessary budget discussion |
 
 Cross-case checks: actual references versus filenames, appropriate stage loading, required viewpoint/age/asymmetry preservation, uncertainty and authorization, concise useful output. Do not score by exact wording, headings, or the number of checklist items. An unavailable tool or asset should produce a truthful bounded handoff, not a fabricated completion.

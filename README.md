@@ -19,6 +19,8 @@ Character and scene work now includes [compact performance records and permanent
 
 For observed defects, [diagnostic repair cards](ai-video-director/references/repair-cards.md#director-repair-decision) compare actual repair, editorial concealment and regeneration, with a recommendation, credit/software/effort evidence and continuity tradeoffs. Sign-replacement guidance covers tracking, foreground occlusion and full-motion verification. This detail and its tutorial lesson load only when needed; the selected editor guide loads after route selection. [Comparative tests](ai-video-director/references/comparative-tests.md) are optional evaluations for requested comparisons or substantial revisions, not automatic paid generation. They distinguish prompt behavior from actual media quality and measured cost.
 
+Conditional production modules cover [precision actions](ai-video-director/references/precision-actions.md), [content inside screens](ai-video-director/references/screen-content.md), [crowds and scale](ai-video-director/references/crowds-and-scale.md), [reference preparation](ai-video-director/references/reference-preparation.md) and [spatial blocking](ai-video-director/references/spatial-blocking.md). They load only for relevant scenes. Shared shot, continuity and editing guidance covers sequence anchors, selected take segments and exact match cuts; the tutorial uses the same modules through optional exercises.
+
 **[Download the complete ZIP](https://github.com/AustinBCIT/ai-video-director/raw/refs/heads/main/ai-video-director-download.zip)** · **[Beginner start guide](START-HERE.md)**
 
 This is a public download; no Git or GitHub account is needed. The repository also includes all editable skill source files.

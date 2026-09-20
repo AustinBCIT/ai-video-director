@@ -16,6 +16,8 @@ Load only when composing or revising an asset/shot prompt. Use the relevant reci
 
 Repeat essential constraints across independent requests when the receiving model needs them. Within one request, use one clear source for each fact; a short continuity reminder may identify what must persist without copying whole blocks. State positive intended behavior first. Use exclusions only for relevant failure risks and supported syntax. No mandatory all-caps battery, word count or camera brand guarantees compliance.
 
+Where a tool uses named elements, map each exact alias to its actual file/media ID, version and role in the input manifest. Verify writer access and execution bindings separately; missing aliases must remain unresolved rather than silently matched to a similar filename. Preserve valid definitions across shots, but revise them when accepted state changes, such as removing a disguise. Keep provider limits in the selected adapter and verify them at use; copied tutorial limits and prose “4K/8K” labels do not configure a job.
+
 ## Visibility and reference filter
 
 Before adding detail, ask whether the intended crop, distance, light, motion and output resolution can reveal it. A wide crowd usually needs silhouettes, clothing colors, travel and occlusion; a close face may need distinguishing anatomy and texture. Keep hidden facts in project records but omit them from the shot prompt unless they constrain a later reveal. Do not demand readable distant signs, pores in tiny faces or sharp detail inside intended motion blur. Preserve exactness requirements by changing coverage or production route, not silently dropping them.

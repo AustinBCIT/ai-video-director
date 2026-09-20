@@ -43,6 +43,7 @@ Start from this entry and accepted state. Read the row that changes the next dec
 | Camera, blocking, light or actual capture | [Cinematography](references/cinematography.md) |
 | Shot records, boards or timing | [Shots](references/shots-prompts.md); [prompt recipes](references/prompt-recipes.md) only when composing a prompt |
 | Connected shots, canon variants or dependency changes | [Continuity](references/continuity.md) |
+| Exact control/contact, meaningful content inside a display, or population/scale relationships | Only the relevant [precision actions](references/precision-actions.md), [screen content](references/screen-content.md) or [crowds and scale](references/crowds-and-scale.md) module |
 | Dialogue, pronunciation, music, captions or mix | [Audio](references/audio-captions.md) |
 | Editing/compositing or final export | [Edit](references/edit-motion.md) or [delivery](references/delivery.md) |
 | Coupled constraints, ambiguous direction or detailed input audit | Relevant section of [director preflight](references/director-preflight.md) |
