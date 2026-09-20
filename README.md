@@ -1,6 +1,13 @@
 # AI Video Director
 
-A video-planning and production-guidance skill for Codex, with an interactive beginner tutorial. Start with your idea or existing footage; the assistant explains the next step, offers simple choices, recommends an approach and writes the production prompts.
+Two distinct Codex skill invocations share the same video-production rules:
+
+| Invoke | Purpose |
+|---|---|
+| `$ai-video-director` | Work on your actual video: plan, write prompts, prepare assets, execute authorized production and review results |
+| `$ai-video-director-tutorial` | Learn step by step: explanations, simple choices, recommendations and guided exercises |
+
+The director does not start a lesson by default. Both begin with a Director's Project Guideline and reuse your existing decisions.
 
 **[Download the complete ZIP](https://github.com/AustinBCIT/ai-video-director/raw/refs/heads/main/ai-video-director-download.zip)** · **[Beginner start guide](START-HERE.md)**
 
@@ -9,22 +16,30 @@ This is a public download; no Git or GitHub account is needed. The repository al
 ## Install
 
 1. Download and extract the ZIP.
-2. Open `ai-video-director-download` and copy its entire **ai-video-director** folder into your Codex skills folder:
+2. Open `ai-video-director-download` and copy both complete folders, **ai-video-director** and **ai-video-director-tutorial**, into your Codex skills folder:
    - Windows: `%USERPROFILE%\.codex\skills\`
    - macOS/Linux: `~/.codex/skills/`
    - Custom `CODEX_HOME`: its `skills` folder.
-3. Confirm `skills/ai-video-director/SKILL.md` exists, with its `agents`, `assets` and `references` folders. Back up personal modifications before replacing an older installation.
+3. Confirm `skills/ai-video-director/SKILL.md` and `skills/ai-video-director-tutorial/SKILL.md` exist side by side. Keep their supporting folders intact. Back up personal modifications before replacing an older installation.
 4. Start a new Codex task and paste:
 
 ```text
-Use $ai-video-director in guided tutorial mode. I'm a beginner.
+Use $ai-video-director-tutorial. I'm a beginner.
 Show the Director's Project Guideline, then start Step 1.
 Give me one decision at a time, simple choices and your recommendation.
 Explain when, why and how to use the relevant tools.
 Start with a planning exercise without paid generation.
 ```
 
-Or describe a real project and ask for production guidance. You can say **recommend**, **explain more**, **go back**, **pause** or **resume**. You do not need to fill every template or write technical prompts yourself.
+For actual production, invoke the director instead:
+
+```text
+Use $ai-video-director to create my video. Here is the result I want:
+[describe the scene, duration, references and constraints].
+Write the prompts and carry out the available authorized work.
+```
+
+In the tutorial you can say **recommend**, **explain more**, **go back**, **pause** or **resume**. You do not need to fill every template or write technical prompts yourself. Switching skills carries accepted project decisions forward; it does not authorize new charges.
 
 ## What the tutorial covers
 
@@ -45,6 +60,7 @@ Read the [tutorial instructions](ai-video-director/references/guided-tutorial.md
 ## Included files
 
 - `ai-video-director/`: the complete installable skill, tool guides, templates and worked examples.
+- `ai-video-director-tutorial/`: the separate teaching entry point; keep it beside the director folder because it loads the shared curriculum there.
 - [START-HERE.md](START-HERE.md): beginner installation and starting prompts.
 - [video-project-brief.md](video-project-brief.md): optional standalone brief; describe your idea and let the assistant help fill it.
 - `ai-video-director-download.zip`: the ready-to-share package.

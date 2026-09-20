@@ -2,15 +2,17 @@
 
 You can start with an idea, phone clips, photographs, or no project at all. You do not need to write technical prompts, know filmmaking terms, or own every application.
 
+**To make a video:** invoke `$ai-video-director` and describe your project. **To learn with guided choices:** invoke `$ai-video-director-tutorial`. The director does not automatically start a tutorial. Both use the same quality checks and preserve accepted decisions when you switch.
+
 ## 1. Install the complete skill
 
-Download [the package](https://github.com/AustinBCIT/ai-video-director/raw/refs/heads/main/ai-video-director-download.zip) and extract it. Inside `ai-video-director-download`, copy the entire `ai-video-director` folder into:
+Download [the package](https://github.com/AustinBCIT/ai-video-director/raw/refs/heads/main/ai-video-director-download.zip) and extract it. Inside `ai-video-director-download`, copy both complete folders, `ai-video-director` and `ai-video-director-tutorial`, side by side into:
 
 - Windows: `%USERPROFILE%\.codex\skills\`
 - macOS or Linux: `~/.codex/skills/`
 - Custom Codex home: its `skills` folder.
 
-The result should be `skills/ai-video-director/SKILL.md`, with `agents`, `assets` and `references` next to it. Do not copy only SKILL.md or nest the folder twice. If updating an existing installation, keep a backup of any personal edits before replacing the folder. Start a new Codex task after copying it.
+The result should include both `skills/ai-video-director/SKILL.md` and `skills/ai-video-director-tutorial/SKILL.md`, with supporting folders intact. Do not copy only SKILL.md or nest the folders inside each other. The tutorial loads shared material from the director folder. If updating an existing installation, keep a backup of any personal edits before replacing the folders. Start a new Codex task after copying them.
 
 The package contains instructions, templates and examples. It does not install Blender, DaVinci Resolve or After Effects, connect accounts, or include paid media credits. Each person uses their own files, available tools and authorization.
 
@@ -19,7 +21,7 @@ The package contains instructions, templates and examples. It does not install B
 For a fully guided introduction:
 
 ```text
-Use $ai-video-director in guided tutorial mode. I'm a beginner.
+Use $ai-video-director-tutorial. I'm a beginner.
 Show the Director's Project Guideline, then start Step 1.
 Give me one decision at a time, simple choices and your recommendation.
 Explain when, why and how each tool helps. Start with a planning exercise
@@ -29,13 +31,22 @@ without paid generation. Help me choose a small project.
 If you already have phone clips:
 
 ```text
-Use $ai-video-director to guide me through making a short family travel
+Use $ai-video-director-tutorial to guide me through making a short family travel
 video from my phone clips. I'm a beginner. Use the clips I already have,
 ask one useful question at a time and explain the editing and sound steps.
 I have no budget for paid generation. First show the project guideline.
 ```
 
 For your own idea, replace the project sentence with what you want the viewer to see, hear and feel. Mention anything that must remain accurate, such as a person, product, place or wording.
+
+For actual project work without lesson pacing:
+
+```text
+Use $ai-video-director to create a short family travel video from my
+phone clips. Prepare the project guideline, write the plan and prompts,
+and carry out the available authorized work. Ask only for decisions or
+assets needed to complete it.
+```
 
 ## 3. Answer in ordinary language
 
