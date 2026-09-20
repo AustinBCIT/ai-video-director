@@ -30,4 +30,4 @@ Determine source color interpretation before applying a look. Balance mismatched
 
 ## Review in context
 
-Verify structure, continuity, timing, spelling, full-motion artifacts, sound, captions and platform crops. Review the exported file as well as the timeline. If a review reveals a defect, record the affected shot and smallest adequate fix. Freeze a working version before a substantial experiment so revisions remain reversible.
+Verify structure, continuity, timing, spelling, full-motion artifacts, sound, captions and platform crops. Review the exported file as well as the timeline. If a review reveals a defect, use the [director repair decision](repair-cards.md#director-repair-decision) to compare repair, re-edit and regeneration before choosing the smallest adequate fix. Freeze a working version before a substantial experiment so revisions remain reversible.

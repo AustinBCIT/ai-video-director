@@ -47,7 +47,7 @@ Start from this entry and accepted state. Read the row that changes the next dec
 | Editing/compositing or final export | [Edit](references/edit-motion.md) or [delivery](references/delivery.md) |
 | Coupled constraints, ambiguous direction or detailed input audit | Relevant section of [director preflight](references/director-preflight.md) |
 | Accuracy-sensitive route selection or production acceptance | [Production readiness](references/production-readiness.md) |
-| Observed defect | Matching [repair card](references/repair-cards.md) |
+| Observed defect or proposed rerun | [Repair decision](references/repair-cards.md#director-repair-decision), then the matching defect card; compare viable repair, re-edit and regeneration before choosing |
 | Requested comparison, major skill revision or recurring failure needing a test | [Comparative tests](references/comparative-tests.md); not routine production |
 | Credit quote, render savings or model/context decision | Relevant section of [efficiency](references/efficiency.md) or [model/context](references/model-and-context.md) |
 | Choosing/executing software | [Tool routing](references/tool-routing.md), then only the selected adapter |

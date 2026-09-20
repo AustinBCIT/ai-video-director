@@ -16,6 +16,10 @@ Example: a three-word product benefit appears as editable type, slides a small d
 
 Create a style frame and timing preview before polishing all scenes. For automation, inspect the existing project and save a working version; preserve unrelated compositions. Check font substitution, expressions, missing footage, plugin availability, motion blur, bounds and safe areas. If no AE execution access exists, deliver the script/project specification honestly as unexecuted.
 
+## Selected sign repair
+
+For a selected sign repair, follow the shared [occlusion workflow](repair-cards.md#sign-replacement-after-an-occlusion). Use suitable tracking/corner-pin data for approved artwork and masks for foreground occluders; Mocha AE is a candidate when available. [Adobe's tracking guide](https://helpx.adobe.com/after-effects/desktop/animate-in-after-effects/track-motion/tracking-stabilizing-motion-cs5.html) describes these workflows. Verify the installed tools; do not assume separately licensed Mocha Pro features are included. Test the difficult occlusion/reveal and match lighting/blur before completing the shot.
+
 ## Round trip
 
 Use a tested mutually supported codec/image sequence for Resolve handoff, including alpha only where needed. Agree straight/premultiplied handling, frame range and color interpretation. Do not promise native AE effects or editable type will survive an exported timeline into Resolve. Deliver the AE source separately when editability matters, plus a rendered preview/intermediate.

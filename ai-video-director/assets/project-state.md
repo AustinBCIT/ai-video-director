@@ -80,7 +80,7 @@ Use only rows relevant to the active stage; retain resolved critical decisions w
 - Required failed or unverified criteria / corrective action before acceptance:
 - Costs measured versus estimated; unresolved job/charge if any:
 
-- Repair, only after a defect: time/frame + evidence / likely causes / selected intervention / preserved passing criteria / cap and quote / observed result.
+- Repair, only after a defect: time/frame + evidence / likely causes / selected repair, re-edit or regeneration and alternatives rejected / credit, software and effort evidence or unknowns / cap and quote / preserved criteria / verification and outcome / revisit trigger.
 - Comparison, only when used: baseline/candidate + fixed inputs/settings / changed variable / sample count / criteria / usage/credits/time / conclusion and uncertainty.
 
 ## Resume

@@ -1,6 +1,35 @@
 # Diagnostic repair cards
 
-Load only after an observed defect or when a known high-risk failure needs a bounded test. Read the matching card, not the whole catalog. A symptom suggests several causes; do not claim that a missing phrase is certainly the cause. A card does not authorize another paid attempt.
+Load only after an observed defect, when considering a rerun, or when a known high-risk failure needs a bounded test. For defective footage, read the decision section and matching card, not the whole catalog. A symptom suggests several causes; do not claim that a missing phrase is certainly the cause. A card does not authorize another paid attempt or guarantee prevention of the first failed generation.
+
+## Director repair decision
+
+Before recommending a rerun or repairing a failed result, inspect the affected interval and what already passes. If the footage cannot be reviewed, label feasibility provisional and identify the minimum evidence needed. For a preventive test without failed footage, use the relevant risk card; do not invent a defect or a repair comparison.
+
+Show one compact comparison for this defect, followed by one recommendation. Compare these routes; mark an unavailable or brief-breaking route ineligible rather than inventing three viable options:
+
+| Route | Explain to the user | Cost and uncertainty |
+|---|---|---|
+| Repair the image or sound | What is actually replaced/corrected; source assets, tracking/masking or audio work needed; what remains intact | Additional generation credits, editing effort, software/plugin charges and feasibility evidence |
+| Re-edit around it | What is hidden through a trim, crop, cutaway or sound bridge; lost action, framing, duration or continuity | Existing coverage versus new assets needed; editing effort and any extra generation cost |
+| Regenerate affected source | Which shot/segment must be remade; corrected inputs/control; passing details at risk | Verified per-attempt quote, preparation costs, attempt cap and maximum additional exposure |
+
+Recommend the smallest reliable intervention that preserves the brief, considering total remaining effort, time and cost, not credits alone. A zero-credit edit is not necessarily cheaper overall. Conventional local compositing with existing assets can require zero additional generation credits; do not label software or labor free. Generated plates, generative fill, cloud/AI tools or replacement audio may incur charges: verify the selected operation. Give effort ranges only with an inspection-based rationale; otherwise say unassessed. Separate credits, currency and time; label unknown rates. Preserve sufficient prior authorization, and resolve only new spending or creative changes outside it.
+
+If regeneration is proposed, reuse or refresh the required [three generation-credit options](efficiency.md#three-generation-credit-options); this repair comparison is not a substitute and should not duplicate a still-valid quote table. Without a current quote, show the cost formula and unknown inputs, not an invented amount. Count new shared preparation once and include bounded retry exposure. A repair plan needs its own stop condition: inspect a representative difficult interval before extending complex work, then reassess if tracking or masking fails.
+
+Load only the selected tool adapter once the route is chosen. Do not open all editor manuals to fill the comparison. Save the selected route, rejected alternatives/reasons, cost evidence, preserved criteria and verification outcome in the compact repair record; reuse that decision unless evidence or scope changes. Do not repeat the comparison for every mask/keyframe or turn. Prompt review cannot prove repair quality or token/credit savings.
+
+## Sign replacement after an occlusion
+
+Use this example only for a relevant defect. A tracked replacement changes the delivered pixels, not the original generator or scene geometry; it is not automatic spellchecking.
+
+1. Confirm exact approved lettering and an authoritative sign reference. Use a usable correct frame/clean plate or recreate artwork; a generated interpretation does not establish real-location accuracy.
+2. Check surface stability, perspective, available tracking features, blur and illumination before promising a fix. Cover/remove wrong lettering and track the replacement to the surface; replacing one word may suffice, but a larger sign patch can avoid inconsistent texture or lighting.
+3. Preserve pedestrians and other foreground objects with masks/rotoscoping. Full occlusion may require separate before/after tracks, nearby coplanar features or manual keys. Match the repaired interval to the earlier correct sign; replacing it throughout may avoid a seam. Occlusion can conceal a transition but does not remove the need for correct layering.
+4. Match perspective, exposure, glow, reflections, texture, grain and motion blur. Review before, through and after the obstruction at playback speed and difficult frames, including the exported result. Check spelling, surface slip, edges, foreground overlap and unintended changes elsewhere.
+
+Stable surfaces favor a Resolve/Fusion or After Effects composite; warping architecture or broken geography may require a rebuilt source. Cropping or cutting away merely avoids the error. Do not silently use those techniques when uninterrupted POV, a landmark or an action is required. Recommend a source rerun when repair is infeasible or disproportionately costly, without promising that a rerun will preserve every passing detail.
 
 ## One repair cycle
 

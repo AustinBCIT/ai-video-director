@@ -22,6 +22,10 @@ Use cuts, sound bridges, ordinary masks or tracked replacements only where the s
 
 Color work can match exposure, white balance and contrast; it cannot create convincing skin, fabric, lighting or anatomy that the source lacks. Review generated footage as finished imagery unless its actual color encoding establishes another interpretation.
 
+## Selected sign repair
+
+For a selected sign repair, use the shared [occlusion workflow](repair-cards.md#sign-replacement-after-an-occlusion), then check the installed Fusion planar tracker/corner pin, paint and ordinary mask tools. Track the sign surface, composite approved artwork and keep foreground occluders above it; do not assume automatic isolation or text correction. [Blackmagic's Fusion page](https://www.blackmagicdesign.com/products/davinciresolve/fusion) documents sign replacement and mask/tracking capabilities. Verify edition-specific availability before execution; test the most difficult reveal before extending the repair.
+
 ## Free-compatible plans
 
 Do not make a plan depend on automatic transcription, text-based editing, Magic Mask, premium denoising or other AI/Studio features without verifying they are included in the installed Free version. Offer manual timing, supported caption-file import, ordinary masks, better source material or an allowed external process where useful. Do not silently purchase/upgrade or claim a premium operation ran.
